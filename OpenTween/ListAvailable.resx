@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing"><value>504, 291</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms"><value>CenterParent</value></data>
+	<data name="$this.Text"><value>ListAvailable</value></data>
+	<data name="&gt;&gt;$this.Name"><value>ListAvailable</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.OTBaseForm, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;Cancel_Button.Name"><value>Cancel_Button</value></data>
+	<data name="&gt;&gt;Cancel_Button.Parent"><value>TableLayoutPanel1</value></data>
+	<data name="&gt;&gt;Cancel_Button.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Cancel_Button.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;DescriptionText.Name"><value>DescriptionText</value></data>
+	<data name="&gt;&gt;DescriptionText.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;DescriptionText.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;DescriptionText.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;Label1.Name"><value>Label1</value></data>
+	<data name="&gt;&gt;Label1.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label1.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label1.ZOrder"><value>13</value></data>
+	<data name="&gt;&gt;Label10.Name"><value>Label10</value></data>
+	<data name="&gt;&gt;Label10.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label10.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label10.ZOrder"><value>6</value></data>
+	<data name="&gt;&gt;Label12.Name"><value>Label12</value></data>
+	<data name="&gt;&gt;Label12.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label12.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label12.ZOrder"><value>4</value></data>
+	<data name="&gt;&gt;Label4.Name"><value>Label4</value></data>
+	<data name="&gt;&gt;Label4.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label4.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label4.ZOrder"><value>11</value></data>
+	<data name="&gt;&gt;Label6.Name"><value>Label6</value></data>
+	<data name="&gt;&gt;Label6.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label6.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label6.ZOrder"><value>9</value></data>
+	<data name="&gt;&gt;Label8.Name"><value>Label8</value></data>
+	<data name="&gt;&gt;Label8.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label8.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label8.ZOrder"><value>8</value></data>
+	<data name="&gt;&gt;ListsList.Name"><value>ListsList</value></data>
+	<data name="&gt;&gt;ListsList.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ListsList.Type"><value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ListsList.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;MemberCountLabel.Name"><value>MemberCountLabel</value></data>
+	<data name="&gt;&gt;MemberCountLabel.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;MemberCountLabel.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;MemberCountLabel.ZOrder"><value>5</value></data>
+	<data name="&gt;&gt;NameLabel.Name"><value>NameLabel</value></data>
+	<data name="&gt;&gt;NameLabel.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;NameLabel.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;NameLabel.ZOrder"><value>10</value></data>
+	<data name="&gt;&gt;OK_Button.Name"><value>OK_Button</value></data>
+	<data name="&gt;&gt;OK_Button.Parent"><value>TableLayoutPanel1</value></data>
+	<data name="&gt;&gt;OK_Button.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;OK_Button.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;RefreshButton.Name"><value>RefreshButton</value></data>
+	<data name="&gt;&gt;RefreshButton.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;RefreshButton.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;RefreshButton.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;StatusLabel.Name"><value>StatusLabel</value></data>
+	<data name="&gt;&gt;StatusLabel.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;StatusLabel.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;StatusLabel.ZOrder"><value>7</value></data>
+	<data name="&gt;&gt;SubscriberCountLabel.Name"><value>SubscriberCountLabel</value></data>
+	<data name="&gt;&gt;SubscriberCountLabel.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;SubscriberCountLabel.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;SubscriberCountLabel.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;TableLayoutPanel1.Name"><value>TableLayoutPanel1</value></data>
+	<data name="&gt;&gt;TableLayoutPanel1.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;TableLayoutPanel1.Type"><value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;TableLayoutPanel1.ZOrder"><value>14</value></data>
+	<data name="&gt;&gt;UsernameLabel.Name"><value>UsernameLabel</value></data>
+	<data name="&gt;&gt;UsernameLabel.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;UsernameLabel.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;UsernameLabel.ZOrder"><value>12</value></data>
+	<data name="Cancel_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>None</value></data>
+	<data name="Cancel_Button.Location" type="System.Drawing.Point, System.Drawing"><value>76, 3</value></data>
+	<data name="Cancel_Button.Size" type="System.Drawing.Size, System.Drawing"><value>67, 21</value></data>
+	<data name="Cancel_Button.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="Cancel_Button.Text"><value>キャンセル</value></data>
+	<data name="DescriptionText.Location" type="System.Drawing.Point, System.Drawing"><value>318, 159</value></data>
+	<data name="DescriptionText.Multiline" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="DescriptionText.Size" type="System.Drawing.Size, System.Drawing"><value>174, 88</value></data>
+	<data name="DescriptionText.TabIndex" type="System.Int32, mscorlib"><value>14</value></data>
+	<data name="DescriptionText.Text"><value>Description</value></data>
+	<data name="Label1.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label1.Location" type="System.Drawing.Point, System.Drawing"><value>302, 12</value></data>
+	<data name="Label1.Size" type="System.Drawing.Size, System.Drawing"><value>41, 12</value></data>
+	<data name="Label1.TabIndex" type="System.Int32, mscorlib"><value>3</value></data>
+	<data name="Label1.Text"><value>作成者</value></data>
+	<data name="Label10.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label10.Location" type="System.Drawing.Point, System.Drawing"><value>302, 90</value></data>
+	<data name="Label10.Size" type="System.Drawing.Size, System.Drawing"><value>53, 12</value></data>
+	<data name="Label10.TabIndex" type="System.Int32, mscorlib"><value>9</value></data>
+	<data name="Label10.Text"><value>登録者数</value></data>
+	<data name="Label12.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label12.Location" type="System.Drawing.Point, System.Drawing"><value>302, 118</value></data>
+	<data name="Label12.Size" type="System.Drawing.Size, System.Drawing"><value>53, 12</value></data>
+	<data name="Label12.TabIndex" type="System.Int32, mscorlib"><value>11</value></data>
+	<data name="Label12.Text"><value>購読者数</value></data>
+	<data name="Label4.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label4.Location" type="System.Drawing.Point, System.Drawing"><value>302, 38</value></data>
+	<data name="Label4.Size" type="System.Drawing.Size, System.Drawing"><value>41, 12</value></data>
+	<data name="Label4.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="Label4.Text"><value>リスト名</value></data>
+	<data name="Label6.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label6.Location" type="System.Drawing.Point, System.Drawing"><value>302, 144</value></data>
+	<data name="Label6.Size" type="System.Drawing.Size, System.Drawing"><value>29, 12</value></data>
+	<data name="Label6.TabIndex" type="System.Int32, mscorlib"><value>13</value></data>
+	<data name="Label6.Text"><value>説明</value></data>
+	<data name="Label8.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label8.Location" type="System.Drawing.Point, System.Drawing"><value>302, 64</value></data>
+	<data name="Label8.Size" type="System.Drawing.Size, System.Drawing"><value>29, 12</value></data>
+	<data name="Label8.TabIndex" type="System.Int32, mscorlib"><value>7</value></data>
+	<data name="Label8.Text"><value>種別</value></data>
+	<data name="ListsList.ItemHeight" type="System.Int32, mscorlib"><value>12</value></data>
+	<data name="ListsList.Location" type="System.Drawing.Point, System.Drawing"><value>12, 12</value></data>
+	<data name="ListsList.Size" type="System.Drawing.Size, System.Drawing"><value>284, 232</value></data>
+	<data name="ListsList.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="MemberCountLabel.Location" type="System.Drawing.Point, System.Drawing"><value>318, 102</value></data>
+	<data name="MemberCountLabel.Size" type="System.Drawing.Size, System.Drawing"><value>46, 14</value></data>
+	<data name="MemberCountLabel.TabIndex" type="System.Int32, mscorlib"><value>10</value></data>
+	<data name="MemberCountLabel.Text"><value>Label9</value></data>
+	<data name="MemberCountLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing"><value>TopRight</value></data>
+	<data name="NameLabel.Location" type="System.Drawing.Point, System.Drawing"><value>318, 50</value></data>
+	<data name="NameLabel.Size" type="System.Drawing.Size, System.Drawing"><value>174, 14</value></data>
+	<data name="NameLabel.TabIndex" type="System.Int32, mscorlib"><value>6</value></data>
+	<data name="NameLabel.Text"><value>Label3</value></data>
+	<data name="OK_Button.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>None</value></data>
+	<data name="OK_Button.Location" type="System.Drawing.Point, System.Drawing"><value>3, 3</value></data>
+	<data name="OK_Button.Size" type="System.Drawing.Size, System.Drawing"><value>67, 21</value></data>
+	<data name="OK_Button.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="OK_Button.Text"><value>OK</value></data>
+	<data name="RefreshButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>None</value></data>
+	<data name="RefreshButton.Location" type="System.Drawing.Point, System.Drawing"><value>12, 256</value></data>
+	<data name="RefreshButton.Size" type="System.Drawing.Size, System.Drawing"><value>67, 21</value></data>
+	<data name="RefreshButton.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="RefreshButton.Text"><value>Refresh</value></data>
+	<data name="StatusLabel.Location" type="System.Drawing.Point, System.Drawing"><value>318, 76</value></data>
+	<data name="StatusLabel.Size" type="System.Drawing.Size, System.Drawing"><value>174, 14</value></data>
+	<data name="StatusLabel.TabIndex" type="System.Int32, mscorlib"><value>8</value></data>
+	<data name="StatusLabel.Text"><value>Label7</value></data>
+	<data name="SubscriberCountLabel.Location" type="System.Drawing.Point, System.Drawing"><value>318, 130</value></data>
+	<data name="SubscriberCountLabel.Size" type="System.Drawing.Size, System.Drawing"><value>46, 14</value></data>
+	<data name="SubscriberCountLabel.TabIndex" type="System.Int32, mscorlib"><value>12</value></data>
+	<data name="SubscriberCountLabel.Text"><value>Label11</value></data>
+	<data name="SubscriberCountLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing"><value>TopRight</value></data>
+	<data name="TableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Right</value></data>
+	<data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms"><value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="OK_Button" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Cancel_Button" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value></data>
+	<data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing"><value>346, 253</value></data>
+	<data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing"><value>146, 27</value></data>
+	<data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="UsernameLabel.Location" type="System.Drawing.Point, System.Drawing"><value>318, 24</value></data>
+	<data name="UsernameLabel.Size" type="System.Drawing.Size, System.Drawing"><value>174, 14</value></data>
+	<data name="UsernameLabel.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="UsernameLabel.Text"><value>Label2</value></data>
+</root>

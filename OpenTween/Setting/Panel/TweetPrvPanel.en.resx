@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="CheckShowGrid.Size" type="System.Drawing.Size, System.Drawing"><value>125, 16</value></data>
+	<data name="CheckShowGrid.Text"><value>Show separator line</value></data>
+	<data name="CheckSortOrderLock.Size" type="System.Drawing.Size, System.Drawing"><value>102, 16</value></data>
+	<data name="CheckSortOrderLock.Text"><value>Lock sort order</value></data>
+	<data name="CheckViewTabBottom.Size" type="System.Drawing.Size, System.Drawing"><value>202, 16</value></data>
+	<data name="CheckViewTabBottom.Text"><value>View tabs at the bottom of the list</value></data>
+	<data name="chkUnreadStyle.Size" type="System.Drawing.Size, System.Drawing"><value>393, 16</value></data>
+	<data name="chkUnreadStyle.Text"><value>Enable unread style(font and color). (Unread can be found by star mark)</value></data>
+	<data name="HideDuplicatedRetweetsCheck.Size" type="System.Drawing.Size, System.Drawing"><value>151, 16</value></data>
+	<data name="HideDuplicatedRetweetsCheck.Text"><value>Hide duplicated retweets</value></data>
+	<data name="IsListsIncludeRtsCheckBox.Size" type="System.Drawing.Size, System.Drawing"><value>127, 16</value></data>
+	<data name="IsListsIncludeRtsCheckBox.Text"><value>Include RTs in Lists</value></data>
+	<data name="Label11.Size" type="System.Drawing.Size, System.Drawing"><value>162, 12</value></data>
+	<data name="Label11.Text"><value>Icon size in List (16 in default)</value></data>
+	<data name="Label23.Size" type="System.Drawing.Size, System.Drawing"><value>105, 12</value></data>
+	<data name="Label23.Text"><value>Date Format in List</value></data>
+	<data name="OneWayLv.Size" type="System.Drawing.Size, System.Drawing"><value>379, 16</value></data>
+	<data name="OneWayLv.Text"><value>Colorize one way love user's tweets (following and not followed user)</value></data>
+</root>

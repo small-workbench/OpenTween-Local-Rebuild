@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="AddButton.Text"><value>&amp;Add</value></data>
+	<data name="Cancel_Button.Text"><value>Cancel</value></data>
+	<data name="CheckPermanent.Size" type="System.Drawing.Size, System.Drawing"><value>83, 16</value></data>
+	<data name="CheckPermanent.Text"><value>A&amp;lways add</value></data>
+	<data name="DeleteButton.Text"><value>&amp;Delete</value></data>
+	<data name="EditButton.Text"><value>&amp;Edit</value></data>
+	<data name="GroupDetail.Text"><value>Detail</value></data>
+	<data name="GroupHashtag.Text"><value>&amp;Hashtags</value></data>
+	<data name="Label1.Size" type="System.Drawing.Size, System.Drawing"><value>86, 12</value></data>
+	<data name="Label1.Text"><value>Using Hash&amp;tags</value></data>
+	<data name="Label3.Size" type="System.Drawing.Size, System.Drawing"><value>76, 12</value></data>
+	<data name="Label3.Text"><value>I&amp;nsert Postion</value></data>
+	<data name="PermCancel_Button.Text"><value>Cancel</value></data>
+	<data name="RadioHead.Size" type="System.Drawing.Size, System.Drawing"><value>49, 16</value></data>
+	<data name="RadioHead.Text"><value>Head</value></data>
+	<data name="RadioLast.Size" type="System.Drawing.Size, System.Drawing"><value>45, 16</value></data>
+	<data name="RadioLast.Text"><value>Last</value></data>
+	<data name="UnSelectButton.Text"><value>Not &amp;Use</value></data>
+</root>

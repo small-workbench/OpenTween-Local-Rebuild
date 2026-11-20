@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="&gt;&gt;$this.Name"><value>ShortUrlPanel</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.Setting.Panel.SettingPanelBase, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;ButtonBitlyAuthorize.Name"><value>ButtonBitlyAuthorize</value></data>
+	<data name="&gt;&gt;ButtonBitlyAuthorize.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ButtonBitlyAuthorize.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ButtonBitlyAuthorize.ZOrder"><value>6</value></data>
+	<data name="&gt;&gt;CheckAutoConvertUrl.Name"><value>CheckAutoConvertUrl</value></data>
+	<data name="&gt;&gt;CheckAutoConvertUrl.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckAutoConvertUrl.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckAutoConvertUrl.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;CheckTinyURL.Name"><value>CheckTinyURL</value></data>
+	<data name="&gt;&gt;CheckTinyURL.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckTinyURL.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckTinyURL.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;ComboBoxAutoShortUrlFirst.Name"><value>ComboBoxAutoShortUrlFirst</value></data>
+	<data name="&gt;&gt;ComboBoxAutoShortUrlFirst.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ComboBoxAutoShortUrlFirst.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ComboBoxAutoShortUrlFirst.ZOrder"><value>5</value></data>
+	<data name="&gt;&gt;Label71.Name"><value>Label71</value></data>
+	<data name="&gt;&gt;Label71.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label71.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label71.ZOrder"><value>4</value></data>
+	<data name="&gt;&gt;Label77.Name"><value>Label77</value></data>
+	<data name="&gt;&gt;Label77.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label77.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label77.ZOrder"><value>7</value></data>
+	<data name="&gt;&gt;ShortenTcoCheck.Name"><value>ShortenTcoCheck</value></data>
+	<data name="&gt;&gt;ShortenTcoCheck.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ShortenTcoCheck.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ShortenTcoCheck.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;TextBitlyAccessToken.Name"><value>TextBitlyAccessToken</value></data>
+	<data name="&gt;&gt;TextBitlyAccessToken.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;TextBitlyAccessToken.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;TextBitlyAccessToken.ZOrder"><value>2</value></data>
+	<data name="ButtonBitlyAuthorize.Location" type="System.Drawing.Point, System.Drawing"><value>429, 129</value></data>
+	<data name="ButtonBitlyAuthorize.Size" type="System.Drawing.Size, System.Drawing"><value>67, 23</value></data>
+	<data name="ButtonBitlyAuthorize.TabIndex" type="System.Int32, mscorlib"><value>7</value></data>
+	<data name="ButtonBitlyAuthorize.Text"><value>認可</value></data>
+	<data name="CheckAutoConvertUrl.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckAutoConvertUrl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckAutoConvertUrl.Location" type="System.Drawing.Point, System.Drawing"><value>23, 48</value></data>
+	<data name="CheckAutoConvertUrl.Size" type="System.Drawing.Size, System.Drawing"><value>242, 16</value></data>
+	<data name="CheckAutoConvertUrl.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="CheckAutoConvertUrl.Text"><value>入力欄のURLを投稿する際に自動で短縮する</value></data>
+	<data name="CheckAutoConvertUrl.Visible" type="System.Boolean, mscorlib"><value>False</value></data>
+	<data name="CheckTinyURL.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckTinyURL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckTinyURL.Location" type="System.Drawing.Point, System.Drawing"><value>23, 23</value></data>
+	<data name="CheckTinyURL.Size" type="System.Drawing.Size, System.Drawing"><value>122, 16</value></data>
+	<data name="CheckTinyURL.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="CheckTinyURL.Text"><value>短縮URLを解決する</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Items"><value>tinyurl</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Items1"><value>is.gd</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Items2"><value>bit.ly</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Items3"><value>j.mp</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Items4"><value>ux.nu</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Location" type="System.Drawing.Point, System.Drawing"><value>249, 98</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.Size" type="System.Drawing.Size, System.Drawing"><value>246, 20</value></data>
+	<data name="ComboBoxAutoShortUrlFirst.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="Label71.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label71.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label71.Location" type="System.Drawing.Point, System.Drawing"><value>23, 101</value></data>
+	<data name="Label71.Size" type="System.Drawing.Size, System.Drawing"><value>154, 12</value></data>
+	<data name="Label71.TabIndex" type="System.Int32, mscorlib"><value>3</value></data>
+	<data name="Label71.Text"><value>URL自動短縮で優先的に使用</value></data>
+	<data name="Label77.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label77.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label77.Location" type="System.Drawing.Point, System.Drawing"><value>23, 134</value></data>
+	<data name="Label77.Size" type="System.Drawing.Size, System.Drawing"><value>106, 12</value></data>
+	<data name="Label77.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="Label77.Text"><value>Bit.ly アクセストークン</value></data>
+	<data name="ShortenTcoCheck.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="ShortenTcoCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="ShortenTcoCheck.Location" type="System.Drawing.Point, System.Drawing"><value>40, 73</value></data>
+	<data name="ShortenTcoCheck.Size" type="System.Drawing.Size, System.Drawing"><value>95, 16</value></data>
+	<data name="ShortenTcoCheck.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="ShortenTcoCheck.Text"><value>t.coで短縮する</value></data>
+	<data name="ShortenTcoCheck.Visible" type="System.Boolean, mscorlib"><value>False</value></data>
+	<data name="TextBitlyAccessToken.Location" type="System.Drawing.Point, System.Drawing"><value>249, 131</value></data>
+	<data name="TextBitlyAccessToken.Size" type="System.Drawing.Size, System.Drawing"><value>173, 19</value></data>
+	<data name="TextBitlyAccessToken.TabIndex" type="System.Int32, mscorlib"><value>6</value></data>
+</root>

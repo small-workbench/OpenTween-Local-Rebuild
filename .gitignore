@@ -1,0 +1,17 @@
+/*.suo
+/*/*.user
+/*/bin
+/*/obj
+/.vs
+/__Instrumented
+/coverage.xml
+Thumbs.db
+*.VisualState.xml
+
+# Local private data
+**/Setting*.xml
+**/ErrorLogs/
+*.etl*
+*.lnk
+*.pfx
+*.pem

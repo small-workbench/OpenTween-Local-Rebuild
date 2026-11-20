@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="btnAtFromTarget.Text"><value>Back...</value></data>
+	<data name="btnAtSelf.Text"><value>Back...</value></data>
+	<data name="btnAtTarget.Text"><value>Back...</value></data>
+	<data name="btnAtTo.Text"><value>Back...</value></data>
+	<data name="btnInputBackcolor.Text"><value>Back...</value></data>
+	<data name="btnInputFont.Text"><value>Font...</value></data>
+	<data name="btnListBack.Text"><value>Back...</value></data>
+	<data name="btnSelf.Text"><value>Back...</value></data>
+	<data name="btnTarget.Text"><value>Back...</value></data>
+	<data name="ButtonBackToDefaultFontColor2.Text"><value>Back to Default</value></data>
+	<data name="GroupBox5.Text"><value>Font &amp;&amp; Color</value></data>
+	<data name="Label14.Size" type="System.Drawing.Size, System.Drawing"><value>42, 12</value></data>
+	<data name="Label14.Text"><value>Sounds</value></data>
+	<data name="Label16.Size" type="System.Drawing.Size, System.Drawing"><value>145, 12</value></data>
+	<data name="Label16.Text"><value>Colorize One-way following</value></data>
+	<data name="Label32.Size" type="System.Drawing.Size, System.Drawing"><value>120, 12</value></data>
+	<data name="Label32.Text"><value>Selected User's Tweet</value></data>
+	<data name="Label34.Size" type="System.Drawing.Size, System.Drawing"><value>84, 12</value></data>
+	<data name="Label34.Text"><value>Replies for You</value></data>
+	<data name="Label36.Size" type="System.Drawing.Size, System.Drawing"><value>89, 12</value></data>
+	<data name="Label36.Text"><value>Your Own Tweet</value></data>
+	<data name="Label49.Size" type="System.Drawing.Size, System.Drawing"><value>78, 12</value></data>
+	<data name="Label49.Text"><value>Replied Tweet</value></data>
+	<data name="Label52.Size" type="System.Drawing.Size, System.Drawing"><value>169, 12</value></data>
+	<data name="Label52.Text"><value>Backcolor of focused input field</value></data>
+	<data name="Label65.Size" type="System.Drawing.Size, System.Drawing"><value>97, 12</value></data>
+	<data name="Label65.Text"><value>Font of input field</value></data>
+	<data name="Label9.Size" type="System.Drawing.Size, System.Drawing"><value>135, 12</value></data>
+	<data name="Label9.Text"><value>First-time Reading Posts</value></data>
+</root>

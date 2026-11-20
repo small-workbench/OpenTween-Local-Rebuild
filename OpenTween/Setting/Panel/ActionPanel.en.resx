@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="Button3.Text"><value>Open...</value></data>
+	<data name="CheckCloseToExit.Size" type="System.Drawing.Size, System.Drawing"><value>150, 16</value></data>
+	<data name="CheckCloseToExit.Text"><value>Close to Exit application</value></data>
+	<data name="CheckEnableTwitterV2Api.Size" type="System.Drawing.Size, System.Drawing"><value>172, 16</value></data>
+	<data name="CheckEnableTwitterV2Api.Text"><value>Enable use of Twitter API v2</value></data>
+	<data name="CheckFavRestrict.Size" type="System.Drawing.Size, System.Drawing"><value>149, 16</value></data>
+	<data name="CheckFavRestrict.Text"><value>Check fav result strictly</value></data>
+	<data name="CheckMinimizeToTray.Size" type="System.Drawing.Size, System.Drawing"><value>106, 16</value></data>
+	<data name="CheckMinimizeToTray.Text"><value>Minimize to tray</value></data>
+	<data name="CheckOpenUserTimeline.Size" type="System.Drawing.Size, System.Drawing"><value>189, 16</value></data>
+	<data name="CheckOpenUserTimeline.Text"><value>Open user's home URL with Tab</value></data>
+	<data name="CheckReadOldPosts.Size" type="System.Drawing.Size, System.Drawing"><value>311, 16</value></data>
+	<data name="CheckReadOldPosts.Text"><value>Mark acquired tweets as  read when new tweets arrived</value></data>
+	<data name="chkReadOwnPost.Size" type="System.Drawing.Size, System.Drawing"><value>155, 16</value></data>
+	<data name="chkReadOwnPost.Text"><value>Mark your tweets as read</value></data>
+	<data name="GroupBox3.Text"><value>Hotkey</value></data>
+	<data name="HotkeyCheck.Size" type="System.Drawing.Size, System.Drawing"><value>58, 16</value></data>
+	<data name="HotkeyCheck.Text"><value>Enable</value></data>
+	<data name="Label15.Size" type="System.Drawing.Size, System.Drawing"><value>405, 12</value></data>
+	<data name="Label15.Text"><value>Sounds will play when you enable this option and set sound file for each tabs.</value></data>
+	<data name="Label38.Size" type="System.Drawing.Size, System.Drawing"><value>183, 12</value></data>
+	<data name="Label38.Text"><value>Behavior when double clicking a tweet</value></data>
+	<data name="Label44.Size" type="System.Drawing.Size, System.Drawing"><value>88, 12</value></data>
+	<data name="Label44.Text"><value>Path to Browser</value></data>
+	<data name="Label57.Size" type="System.Drawing.Size, System.Drawing"><value>484, 12</value></data>
+	<data name="Label57.Text"><value>Refetch tweets and verify whether marked favorites. This option causes traffic increasement.</value></data>
+	<data name="ListDoubleClickActionComboBox.Items"><value>Do nothing</value></data>
+	<data name="ListDoubleClickActionComboBox.Items4"><value>Show user's profile</value></data>
+	<data name="ListDoubleClickActionComboBox.Items5"><value>Show user's timeline</value></data>
+	<data name="ListDoubleClickActionComboBox.Items6"><value>Show Relational tweet</value></data>
+	<data name="ListDoubleClickActionComboBox.Items7"><value>Open user's home of twitter.com</value></data>
+	<data name="ListDoubleClickActionComboBox.Items8"><value>Open status of twitter.com</value></data>
+	<data name="PlaySnd.Size" type="System.Drawing.Size, System.Drawing"><value>215, 16</value></data>
+	<data name="PlaySnd.Text"><value>Play sounds when new status arrived</value></data>
+	<data name="TabMouseLockCheck.Size" type="System.Drawing.Size, System.Drawing"><value>157, 16</value></data>
+	<data name="TabMouseLockCheck.Text"><value>Disable Drag&amp;&amp;Drop on tab</value></data>
+	<data name="UReadMng.Size" type="System.Drawing.Size, System.Drawing"><value>126, 16</value></data>
+	<data name="UReadMng.Text"><value>Enable unread state</value></data>
+</root>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.ToolTip"><value /></data>
+	<data name="CheckAlwaysTop.Size" type="System.Drawing.Size, System.Drawing"><value>97, 16</value></data>
+	<data name="CheckAlwaysTop.Text"><value>Always on top</value></data>
+	<data name="CheckAlwaysTop.ToolTip"><value /></data>
+	<data name="CheckBalloonLimit.Size" type="System.Drawing.Size, System.Drawing"><value>293, 16</value></data>
+	<data name="CheckBalloonLimit.Text"><value>Popup balloon only at the minimization or iconization</value></data>
+	<data name="CheckBalloonLimit.ToolTip"><value /></data>
+	<data name="CheckDispUsername.Size" type="System.Drawing.Size, System.Drawing"><value>278, 16</value></data>
+	<data name="CheckDispUsername.Text"><value>Show username in application titlebar and balloon</value></data>
+	<data name="CheckDispUsername.ToolTip"><value /></data>
+	<data name="CheckMonospace.Size" type="System.Drawing.Size, System.Drawing"><value>232, 16</value></data>
+	<data name="CheckMonospace.Text"><value>Use monospace font in tweet detail area</value></data>
+	<data name="CheckMonospace.ToolTip"><value /></data>
+	<data name="CheckPreviewEnable.Size" type="System.Drawing.Size, System.Drawing"><value>138, 16</value></data>
+	<data name="CheckPreviewEnable.Text"><value>Show image thumbnail</value></data>
+	<data name="CheckPreviewEnable.ToolTip"><value /></data>
+	<data name="CheckStatusAreaAtBottom.Size" type="System.Drawing.Size, System.Drawing"><value>278, 16</value></data>
+	<data name="CheckStatusAreaAtBottom.Text"><value>Locate tweet detail and input area at the bottom</value></data>
+	<data name="CheckStatusAreaAtBottom.ToolTip"><value /></data>
+	<data name="ChkNewMentionsBlink.Size" type="System.Drawing.Size, System.Drawing"><value>180, 16</value></data>
+	<data name="ChkNewMentionsBlink.Text"><value>Blink window mentions arrived</value></data>
+	<data name="ChkNewMentionsBlink.ToolTip"><value /></data>
+	<data name="chkTabIconDisp.Size" type="System.Drawing.Size, System.Drawing"><value>210, 16</value></data>
+	<data name="chkTabIconDisp.Text"><value>Show icon on tab has unread tweets</value></data>
+	<data name="chkTabIconDisp.ToolTip"><value /></data>
+	<data name="cmbNameBalloon.Items"><value>None</value></data>
+	<data name="cmbNameBalloon.Items1"><value>User ID</value></data>
+	<data name="cmbNameBalloon.Items2"><value>Nickname</value></data>
+	<data name="cmbNameBalloon.ToolTip"><value /></data>
+	<data name="ComboDispTitle.Items"><value>None</value></data>
+	<data name="ComboDispTitle.Items1"><value>Program Version</value></data>
+	<data name="ComboDispTitle.Items2"><value>Latest your post</value></data>
+	<data name="ComboDispTitle.Items3"><value>unread @reply items</value></data>
+	<data name="ComboDispTitle.Items4"><value>unread items</value></data>
+	<data name="ComboDispTitle.Items5"><value>unread items(unread @reply items)</value></data>
+	<data name="ComboDispTitle.Items6"><value>unread items/all items</value></data>
+	<data name="ComboDispTitle.Items7"><value>Count of Status/Follow/Follower</value></data>
+	<data name="ComboDispTitle.ToolTip"><value /></data>
+	<data name="IsNotifyUseGrowlCheckBox.Size" type="System.Drawing.Size, System.Drawing"><value>194, 16</value></data>
+	<data name="IsNotifyUseGrowlCheckBox.Text"><value>Use 'Growl for Windows' to notify</value></data>
+	<data name="IsNotifyUseGrowlCheckBox.ToolTip"><value /></data>
+	<data name="Label10.Size" type="System.Drawing.Size, System.Drawing"><value>103, 12</value></data>
+	<data name="Label10.Text"><value>Username in popup</value></data>
+	<data name="Label10.ToolTip"><value /></data>
+	<data name="Label13.ToolTip"><value /></data>
+	<data name="Label2.Size" type="System.Drawing.Size, System.Drawing"><value>224, 12</value></data>
+	<data name="Label2.Text"><value>* Require Growl Connector Libralies(DLLs)</value></data>
+	<data name="Label2.ToolTip"><value>Require to get DLLs below and to copy to the path same as Tween.exe.
+Growl.Connector.DLL
+Growl.CoreLibrary.DLL
+These are contained in 'Growl_NET_Connector_SDK.zip'.
+This file is released for developers in Growl for Windows web site.</value></data>
+	<data name="Label45.Size" type="System.Drawing.Size, System.Drawing"><value>65, 12</value></data>
+	<data name="Label45.Text"><value>Title format</value></data>
+	<data name="Label45.ToolTip"><value /></data>
+	<data name="Label72.Size" type="System.Drawing.Size, System.Drawing"><value>188, 12</value></data>
+	<data name="Label72.Text"><value>Tasktray icon with unread mentions</value></data>
+	<data name="Label72.ToolTip"><value /></data>
+	<data name="Label81.ToolTip"><value /></data>
+	<data name="LanguageCombo.ToolTip"><value /></data>
+	<data name="ReplyIconStateCombo.Items"><value>Don't notify</value></data>
+	<data name="ReplyIconStateCombo.Items1"><value>Change icon</value></data>
+	<data name="ReplyIconStateCombo.Items2"><value>Change icon&amp;blink</value></data>
+	<data name="ReplyIconStateCombo.ToolTip"><value /></data>
+</root>

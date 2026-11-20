@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="&gt;&gt;$this.Name"><value>StartupPanel</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.Setting.Panel.SettingPanelBase, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;CheckStartupFollowers.Name"><value>CheckStartupFollowers</value></data>
+	<data name="&gt;&gt;CheckStartupFollowers.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckStartupFollowers.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckStartupFollowers.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;CheckStartupVersion.Name"><value>CheckStartupVersion</value></data>
+	<data name="&gt;&gt;CheckStartupVersion.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckStartupVersion.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckStartupVersion.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;chkGetFav.Name"><value>chkGetFav</value></data>
+	<data name="&gt;&gt;chkGetFav.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;chkGetFav.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;chkGetFav.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;StartupReaded.Name"><value>StartupReaded</value></data>
+	<data name="&gt;&gt;StartupReaded.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;StartupReaded.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;StartupReaded.ZOrder"><value>0</value></data>
+	<data name="CheckStartupFollowers.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckStartupFollowers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckStartupFollowers.Location" type="System.Drawing.Point, System.Drawing"><value>23, 73</value></data>
+	<data name="CheckStartupFollowers.Size" type="System.Drawing.Size, System.Drawing"><value>174, 16</value></data>
+	<data name="CheckStartupFollowers.TabIndex" type="System.Int32, mscorlib"><value>6</value></data>
+	<data name="CheckStartupFollowers.Text"><value>片思いユーザーリストを取得する</value></data>
+	<data name="CheckStartupVersion.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckStartupVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckStartupVersion.Location" type="System.Drawing.Point, System.Drawing"><value>23, 48</value></data>
+	<data name="CheckStartupVersion.Size" type="System.Drawing.Size, System.Drawing"><value>129, 16</value></data>
+	<data name="CheckStartupVersion.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="CheckStartupVersion.Text"><value>最新版のチェックをする</value></data>
+	<data name="chkGetFav.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="chkGetFav.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="chkGetFav.Location" type="System.Drawing.Point, System.Drawing"><value>23, 98</value></data>
+	<data name="chkGetFav.Size" type="System.Drawing.Size, System.Drawing"><value>124, 16</value></data>
+	<data name="chkGetFav.TabIndex" type="System.Int32, mscorlib"><value>7</value></data>
+	<data name="chkGetFav.Text"><value>Favoritesを取得する</value></data>
+	<data name="StartupReaded.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="StartupReaded.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="StartupReaded.Location" type="System.Drawing.Point, System.Drawing"><value>23, 23</value></data>
+	<data name="StartupReaded.Size" type="System.Drawing.Size, System.Drawing"><value>166, 16</value></data>
+	<data name="StartupReaded.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="StartupReaded.Text"><value>読み込んだポストを既読にする</value></data>
+</root>

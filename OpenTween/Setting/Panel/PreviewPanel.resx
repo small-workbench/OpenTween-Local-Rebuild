@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>20, 10, 20, 10</value></data>
+	<data name="&gt;&gt;$this.Name"><value>PreviewPanel</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.Setting.Panel.SettingPanelBase, OpenTween, Version=2.4.3.1, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;CheckAlwaysTop.Name"><value>CheckAlwaysTop</value></data>
+	<data name="&gt;&gt;CheckAlwaysTop.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckAlwaysTop.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckAlwaysTop.ZOrder"><value>7</value></data>
+	<data name="&gt;&gt;CheckBalloonLimit.Name"><value>CheckBalloonLimit</value></data>
+	<data name="&gt;&gt;CheckBalloonLimit.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckBalloonLimit.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckBalloonLimit.ZOrder"><value>9</value></data>
+	<data name="&gt;&gt;CheckDispUsername.Name"><value>CheckDispUsername</value></data>
+	<data name="&gt;&gt;CheckDispUsername.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckDispUsername.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckDispUsername.ZOrder"><value>12</value></data>
+	<data name="&gt;&gt;CheckMonospace.Name"><value>CheckMonospace</value></data>
+	<data name="&gt;&gt;CheckMonospace.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckMonospace.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckMonospace.ZOrder"><value>8</value></data>
+	<data name="&gt;&gt;CheckPreviewEnable.Name"><value>CheckPreviewEnable</value></data>
+	<data name="&gt;&gt;CheckPreviewEnable.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckPreviewEnable.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckPreviewEnable.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;CheckStatusAreaAtBottom.Name"><value>CheckStatusAreaAtBottom</value></data>
+	<data name="&gt;&gt;CheckStatusAreaAtBottom.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckStatusAreaAtBottom.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckStatusAreaAtBottom.ZOrder"><value>13</value></data>
+	<data name="&gt;&gt;chkTabIconDisp.Name"><value>chkTabIconDisp</value></data>
+	<data name="&gt;&gt;chkTabIconDisp.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;chkTabIconDisp.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;chkTabIconDisp.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;ComboDispTitle.Name"><value>ComboDispTitle</value></data>
+	<data name="&gt;&gt;ComboDispTitle.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ComboDispTitle.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ComboDispTitle.ZOrder"><value>10</value></data>
+	<data name="&gt;&gt;Label13.Name"><value>Label13</value></data>
+	<data name="&gt;&gt;Label13.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label13.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label13.ZOrder"><value>6</value></data>
+	<data name="&gt;&gt;Label45.Name"><value>Label45</value></data>
+	<data name="&gt;&gt;Label45.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label45.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label45.ZOrder"><value>11</value></data>
+	<data name="&gt;&gt;Label72.Name"><value>Label72</value></data>
+	<data name="&gt;&gt;Label72.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label72.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label72.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;Label81.Name"><value>Label81</value></data>
+	<data name="&gt;&gt;Label81.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label81.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label81.ZOrder"><value>4</value></data>
+	<data name="&gt;&gt;LanguageCombo.Name"><value>LanguageCombo</value></data>
+	<data name="&gt;&gt;LanguageCombo.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;LanguageCombo.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;LanguageCombo.ZOrder"><value>5</value></data>
+	<data name="&gt;&gt;ReplyIconStateCombo.Name"><value>ReplyIconStateCombo</value></data>
+	<data name="&gt;&gt;ReplyIconStateCombo.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ReplyIconStateCombo.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ReplyIconStateCombo.ZOrder"><value>0</value></data>
+	<data name="CheckAlwaysTop.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckAlwaysTop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckAlwaysTop.Location" type="System.Drawing.Point, System.Drawing"><value>23, 227</value></data>
+	<data name="CheckAlwaysTop.Size" type="System.Drawing.Size, System.Drawing"><value>133, 16</value></data>
+	<data name="CheckAlwaysTop.TabIndex" type="System.Int32, mscorlib"><value>32</value></data>
+	<data name="CheckAlwaysTop.Text"><value>常に最前面に表示する</value></data>
+	<data name="CheckBalloonLimit.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckBalloonLimit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckBalloonLimit.Location" type="System.Drawing.Point, System.Drawing"><value>23, 47</value></data>
+	<data name="CheckBalloonLimit.Size" type="System.Drawing.Size, System.Drawing"><value>249, 16</value></data>
+	<data name="CheckBalloonLimit.TabIndex" type="System.Int32, mscorlib"><value>22</value></data>
+	<data name="CheckBalloonLimit.Text"><value>画面最小化・アイコン時のみバルーンを表示する</value></data>
+	<data name="CheckDispUsername.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckDispUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckDispUsername.Location" type="System.Drawing.Point, System.Drawing"><value>23, 22</value></data>
+	<data name="CheckDispUsername.Size" type="System.Drawing.Size, System.Drawing"><value>235, 16</value></data>
+	<data name="CheckDispUsername.TabIndex" type="System.Int32, mscorlib"><value>21</value></data>
+	<data name="CheckDispUsername.Text"><value>タイトルバーとツールチップにユーザー名を表示</value></data>
+	<data name="CheckMonospace.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckMonospace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckMonospace.Location" type="System.Drawing.Point, System.Drawing"><value>23, 202</value></data>
+	<data name="CheckMonospace.Size" type="System.Drawing.Size, System.Drawing"><value>343, 16</value></data>
+	<data name="CheckMonospace.TabIndex" type="System.Int32, mscorlib"><value>31</value></data>
+	<data name="CheckMonospace.Text"><value>発言詳細を等幅フォントで表示（AA対応、フォント適用不具合あり）</value></data>
+	<data name="CheckPreviewEnable.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckPreviewEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckPreviewEnable.Location" type="System.Drawing.Point, System.Drawing"><value>23, 155</value></data>
+	<data name="CheckPreviewEnable.Size" type="System.Drawing.Size, System.Drawing"><value>243, 16</value></data>
+	<data name="CheckPreviewEnable.TabIndex" type="System.Int32, mscorlib"><value>29</value></data>
+	<data name="CheckPreviewEnable.Text"><value>画像リンクがあった場合にサムネイルを表示する</value></data>
+	<data name="CheckStatusAreaAtBottom.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckStatusAreaAtBottom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckStatusAreaAtBottom.Location" type="System.Drawing.Point, System.Drawing"><value>23, 177</value></data>
+	<data name="CheckStatusAreaAtBottom.Size" type="System.Drawing.Size, System.Drawing"><value>257, 16</value></data>
+	<data name="CheckStatusAreaAtBottom.TabIndex" type="System.Int32, mscorlib"><value>30</value></data>
+	<data name="CheckStatusAreaAtBottom.Text"><value>発言詳細部・入力欄を発言一覧の下に配置する</value></data>
+	<data name="chkTabIconDisp.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="chkTabIconDisp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="chkTabIconDisp.Location" type="System.Drawing.Point, System.Drawing"><value>23, 101</value></data>
+	<data name="chkTabIconDisp.Size" type="System.Drawing.Size, System.Drawing"><value>161, 16</value></data>
+	<data name="chkTabIconDisp.TabIndex" type="System.Int32, mscorlib"><value>25</value></data>
+	<data name="chkTabIconDisp.Text"><value>タブに未読アイコンを表示する</value></data>
+	<data name="ComboDispTitle.Items"><value>（なし）</value></data>
+	<data name="ComboDispTitle.Items1"><value>バージョン</value></data>
+	<data name="ComboDispTitle.Items2"><value>最終発言</value></data>
+	<data name="ComboDispTitle.Items3"><value>＠未読数</value></data>
+	<data name="ComboDispTitle.Items4"><value>未読数</value></data>
+	<data name="ComboDispTitle.Items5"><value>未読数(@未読数)</value></data>
+	<data name="ComboDispTitle.Items6"><value>全未読/全発言数</value></data>
+	<data name="ComboDispTitle.Items7"><value>発言数/フォロー数/フォロワー数</value></data>
+	<data name="ComboDispTitle.Location" type="System.Drawing.Point, System.Drawing"><value>276, 72</value></data>
+	<data name="ComboDispTitle.Size" type="System.Drawing.Size, System.Drawing"><value>197, 20</value></data>
+	<data name="ComboDispTitle.TabIndex" type="System.Int32, mscorlib"><value>24</value></data>
+	<data name="Label13.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label13.Location" type="System.Drawing.Point, System.Drawing"><value>23, 255</value></data>
+	<data name="Label13.Size" type="System.Drawing.Size, System.Drawing"><value>53, 12</value></data>
+	<data name="Label13.TabIndex" type="System.Int32, mscorlib"><value>33</value></data>
+	<data name="Label13.Text"><value>Language</value></data>
+	<data name="Label45.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label45.Location" type="System.Drawing.Point, System.Drawing"><value>23, 75</value></data>
+	<data name="Label45.Size" type="System.Drawing.Size, System.Drawing"><value>60, 12</value></data>
+	<data name="Label45.TabIndex" type="System.Int32, mscorlib"><value>23</value></data>
+	<data name="Label45.Text"><value>タイトルバー</value></data>
+	<data name="Label72.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label72.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label72.Location" type="System.Drawing.Point, System.Drawing"><value>23, 129</value></data>
+	<data name="Label72.Size" type="System.Drawing.Size, System.Drawing"><value>134, 12</value></data>
+	<data name="Label72.TabIndex" type="System.Int32, mscorlib"><value>26</value></data>
+	<data name="Label72.Text"><value>未読Mentions通知アイコン</value></data>
+	<data name="Label81.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label81.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label81.Location" type="System.Drawing.Point, System.Drawing"><value>92, 255</value></data>
+	<data name="Label81.Size" type="System.Drawing.Size, System.Drawing"><value>115, 12</value></data>
+	<data name="Label81.TabIndex" type="System.Int32, mscorlib"><value>34</value></data>
+	<data name="Label81.Text"><value>Apply after restarting</value></data>
+	<data name="LanguageCombo.Items"><value>OS Default</value></data>
+	<data name="LanguageCombo.Items1"><value>Japanese</value></data>
+	<data name="LanguageCombo.Items2"><value>English</value></data>
+	<data name="LanguageCombo.Location" type="System.Drawing.Point, System.Drawing"><value>276, 252</value></data>
+	<data name="LanguageCombo.Size" type="System.Drawing.Size, System.Drawing"><value>136, 20</value></data>
+	<data name="LanguageCombo.TabIndex" type="System.Int32, mscorlib"><value>35</value></data>
+	<data name="ReplyIconStateCombo.Items"><value>通知なし</value></data>
+	<data name="ReplyIconStateCombo.Items1"><value>アイコン変更</value></data>
+	<data name="ReplyIconStateCombo.Items2"><value>アイコン変更＆点滅</value></data>
+	<data name="ReplyIconStateCombo.Location" type="System.Drawing.Point, System.Drawing"><value>276, 126</value></data>
+	<data name="ReplyIconStateCombo.Size" type="System.Drawing.Size, System.Drawing"><value>136, 20</value></data>
+	<data name="ReplyIconStateCombo.TabIndex" type="System.Int32, mscorlib"><value>27</value></data>
+</root>

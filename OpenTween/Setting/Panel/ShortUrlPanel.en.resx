@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="ButtonBitlyAuthorize.Text"><value>Authorize</value></data>
+	<data name="CheckAutoConvertUrl.Size" type="System.Drawing.Size, System.Drawing"><value>205, 16</value></data>
+	<data name="CheckAutoConvertUrl.Text"><value>Auto shorten Urls in posting status</value></data>
+	<data name="CheckTinyURL.Size" type="System.Drawing.Size, System.Drawing"><value>145, 16</value></data>
+	<data name="CheckTinyURL.Text"><value>Resolve shortend URLs</value></data>
+	<data name="Label71.Size" type="System.Drawing.Size, System.Drawing"><value>149, 12</value></data>
+	<data name="Label71.Text"><value>Primary URLshorten service</value></data>
+	<data name="Label77.Size" type="System.Drawing.Size, System.Drawing"><value>108, 12</value></data>
+	<data name="Label77.Text"><value>Bit.ly Access Token</value></data>
+	<data name="ShortenTcoCheck.Size" type="System.Drawing.Size, System.Drawing"><value>91, 16</value></data>
+	<data name="ShortenTcoCheck.Text"><value>t.co wrapping</value></data>
+</root>

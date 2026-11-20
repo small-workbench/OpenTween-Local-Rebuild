@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="&gt;&gt;$this.Name"><value>TweetActPanel</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.Setting.Panel.SettingPanelBase, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;CheckAlphaPNGWorkaround.Name"><value>CheckAlphaPNGWorkaround</value></data>
+	<data name="&gt;&gt;CheckAlphaPNGWorkaround.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckAlphaPNGWorkaround.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckAlphaPNGWorkaround.ZOrder"><value>9</value></data>
+	<data name="&gt;&gt;CheckAtIdSupple.Name"><value>CheckAtIdSupple</value></data>
+	<data name="&gt;&gt;CheckAtIdSupple.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckAtIdSupple.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckAtIdSupple.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;CheckHashSupple.Name"><value>CheckHashSupple</value></data>
+	<data name="&gt;&gt;CheckHashSupple.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckHashSupple.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckHashSupple.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;CheckRetweetNoConfirm.Name"><value>CheckRetweetNoConfirm</value></data>
+	<data name="&gt;&gt;CheckRetweetNoConfirm.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckRetweetNoConfirm.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckRetweetNoConfirm.ZOrder"><value>4</value></data>
+	<data name="&gt;&gt;CheckUseRecommendStatus.Name"><value>CheckUseRecommendStatus</value></data>
+	<data name="&gt;&gt;CheckUseRecommendStatus.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;CheckUseRecommendStatus.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;CheckUseRecommendStatus.ZOrder"><value>6</value></data>
+	<data name="&gt;&gt;ComboBoxPostKeySelect.Name"><value>ComboBoxPostKeySelect</value></data>
+	<data name="&gt;&gt;ComboBoxPostKeySelect.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ComboBoxPostKeySelect.Type"><value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ComboBoxPostKeySelect.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;Label12.Name"><value>Label12</value></data>
+	<data name="&gt;&gt;Label12.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label12.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label12.ZOrder"><value>5</value></data>
+	<data name="&gt;&gt;Label27.Name"><value>Label27</value></data>
+	<data name="&gt;&gt;Label27.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label27.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label27.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;label3.Name"><value>label3</value></data>
+	<data name="&gt;&gt;label3.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;label3.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;label3.ZOrder"><value>8</value></data>
+	<data name="&gt;&gt;StatusText.Name"><value>StatusText</value></data>
+	<data name="&gt;&gt;StatusText.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;StatusText.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;StatusText.ZOrder"><value>7</value></data>
+	<data name="CheckAlphaPNGWorkaround.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckAlphaPNGWorkaround.Location" type="System.Drawing.Point, System.Drawing"><value>23, 178</value></data>
+	<data name="CheckAlphaPNGWorkaround.Size" type="System.Drawing.Size, System.Drawing"><value>361, 16</value></data>
+	<data name="CheckAlphaPNGWorkaround.TabIndex" type="System.Int32, mscorlib"><value>24</value></data>
+	<data name="CheckAlphaPNGWorkaround.Text"><value>PNG画像の投稿時にJPEGへの変換を回避する (pic.twitter.com のみ)</value></data>
+	<data name="CheckAtIdSupple.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckAtIdSupple.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckAtIdSupple.Location" type="System.Drawing.Point, System.Drawing"><value>23, 131</value></data>
+	<data name="CheckAtIdSupple.Size" type="System.Drawing.Size, System.Drawing"><value>153, 16</value></data>
+	<data name="CheckAtIdSupple.TabIndex" type="System.Int32, mscorlib"><value>22</value></data>
+	<data name="CheckAtIdSupple.Text"><value>@IDの入力補助を使用する</value></data>
+	<data name="CheckHashSupple.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckHashSupple.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckHashSupple.Location" type="System.Drawing.Point, System.Drawing"><value>23, 156</value></data>
+	<data name="CheckHashSupple.Size" type="System.Drawing.Size, System.Drawing"><value>157, 16</value></data>
+	<data name="CheckHashSupple.TabIndex" type="System.Int32, mscorlib"><value>23</value></data>
+	<data name="CheckHashSupple.Text"><value>#タグの入力補助を使用する</value></data>
+	<data name="CheckRetweetNoConfirm.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckRetweetNoConfirm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckRetweetNoConfirm.Location" type="System.Drawing.Point, System.Drawing"><value>23, 52</value></data>
+	<data name="CheckRetweetNoConfirm.Size" type="System.Drawing.Size, System.Drawing"><value>165, 16</value></data>
+	<data name="CheckRetweetNoConfirm.TabIndex" type="System.Int32, mscorlib"><value>18</value></data>
+	<data name="CheckRetweetNoConfirm.Text"><value>公式RTする際に確認をしない</value></data>
+	<data name="CheckUseRecommendStatus.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="CheckUseRecommendStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="CheckUseRecommendStatus.Location" type="System.Drawing.Point, System.Drawing"><value>218, 77</value></data>
+	<data name="CheckUseRecommendStatus.Size" type="System.Drawing.Size, System.Drawing"><value>195, 16</value></data>
+	<data name="CheckUseRecommendStatus.TabIndex" type="System.Int32, mscorlib"><value>20</value></data>
+	<data name="CheckUseRecommendStatus.Text"><value>推奨フッターを使用する[TWNv○○]</value></data>
+	<data name="ComboBoxPostKeySelect.Items"><value>Enter</value></data>
+	<data name="ComboBoxPostKeySelect.Items1"><value>Ctrl+Enter</value></data>
+	<data name="ComboBoxPostKeySelect.Items2"><value>Shift+Enter</value></data>
+	<data name="ComboBoxPostKeySelect.Location" type="System.Drawing.Point, System.Drawing"><value>218, 23</value></data>
+	<data name="ComboBoxPostKeySelect.Size" type="System.Drawing.Size, System.Drawing"><value>246, 20</value></data>
+	<data name="ComboBoxPostKeySelect.TabIndex" type="System.Int32, mscorlib"><value>17</value></data>
+	<data name="Label12.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label12.Location" type="System.Drawing.Point, System.Drawing"><value>23, 78</value></data>
+	<data name="Label12.Size" type="System.Drawing.Size, System.Drawing"><value>107, 12</value></data>
+	<data name="Label12.TabIndex" type="System.Int32, mscorlib"><value>19</value></data>
+	<data name="Label12.Text"><value>フッター（文末に付加）</value></data>
+	<data name="Label27.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label27.Location" type="System.Drawing.Point, System.Drawing"><value>23, 26</value></data>
+	<data name="Label27.Size" type="System.Drawing.Size, System.Drawing"><value>137, 12</value></data>
+	<data name="Label27.TabIndex" type="System.Int32, mscorlib"><value>16</value></data>
+	<data name="Label27.Text"><value>POSTキー（デフォルトEnter）</value></data>
+	<data name="label3.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="label3.Location" type="System.Drawing.Point, System.Drawing"><value>40, 200</value></data>
+	<data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 3, 3, 3</value></data>
+	<data name="label3.Size" type="System.Drawing.Size, System.Drawing"><value>357, 12</value></data>
+	<data name="label3.TabIndex" type="System.Int32, mscorlib"><value>25</value></data>
+	<data name="label3.Text"><value>※投稿する画像の左上1pxのアルファ値を254に書き換えることで回避します</value></data>
+	<data name="StatusText.Location" type="System.Drawing.Point, System.Drawing"><value>218, 102</value></data>
+	<data name="StatusText.Size" type="System.Drawing.Size, System.Drawing"><value>232, 19</value></data>
+	<data name="StatusText.TabIndex" type="System.Int32, mscorlib"><value>21</value></data>
+</root>

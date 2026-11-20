@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.Size" type="System.Drawing.Size, System.Drawing"><value>160, 150</value></data>
+	<data name="$this.ToolTip"><value /></data>
+	<data name="&gt;&gt;$this.Name"><value>TweetThumbnailControl</value></data>
+	<data name="&gt;&gt;$this.Type"><value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;contextMenuStrip.Name"><value>contextMenuStrip</value></data>
+	<data name="&gt;&gt;contextMenuStrip.Type"><value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;copyToClipboardMenuItem.Name"><value>copyToClipboardMenuItem</value></data>
+	<data name="&gt;&gt;copyToClipboardMenuItem.Type"><value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;copyUrlMenuItem.Name"><value>copyUrlMenuItem</value></data>
+	<data name="&gt;&gt;copyUrlMenuItem.Type"><value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;openMenuItem.Name"><value>openMenuItem</value></data>
+	<data name="&gt;&gt;openMenuItem.Type"><value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;pictureBox.Name"><value>pictureBox</value></data>
+	<data name="&gt;&gt;pictureBox.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;pictureBox.Type"><value>OpenTween.OTPictureBox, OpenTween, Version=3.6.2.1, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;pictureBox.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;scrollBar.Name"><value>scrollBar</value></data>
+	<data name="&gt;&gt;scrollBar.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;scrollBar.Type"><value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;scrollBar.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;searchImageGoogleMenuItem.Name"><value>searchImageGoogleMenuItem</value></data>
+	<data name="&gt;&gt;searchImageGoogleMenuItem.Type"><value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;searchImageSauceNaoMenuItem.Name"><value>searchImageSauceNaoMenuItem</value></data>
+	<data name="&gt;&gt;searchImageSauceNaoMenuItem.Type"><value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;toolStripSeparator1.Name"><value>toolStripSeparator1</value></data>
+	<data name="&gt;&gt;toolStripSeparator1.Type"><value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;toolTip.Name"><value>toolTip</value></data>
+	<data name="&gt;&gt;toolTip.Type"><value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing"><value>224, 120</value></data>
+	<data name="contextMenuStrip.ToolTip"><value /></data>
+	<metadata name="contextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"><value>110, 17</value></metadata>
+	<data name="copyToClipboardMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>223, 22</value></data>
+	<data name="copyToClipboardMenuItem.Text"><value>画像をコピー</value></data>
+	<data name="copyUrlMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>223, 22</value></data>
+	<data name="copyUrlMenuItem.Text"><value>画像のURLをコピー(&amp;C)</value></data>
+	<data name="openMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>223, 22</value></data>
+	<data name="openMenuItem.Text"><value>開く(&amp;O)</value></data>
+	<data name="pictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="pictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing"><value>0, 0</value></data>
+	<data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing"><value>143, 150</value></data>
+	<data name="pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms"><value>Zoom</value></data>
+	<data name="pictureBox.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="pictureBox.ToolTip"><value /></data>
+	<data name="scrollBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Right</value></data>
+	<data name="scrollBar.Location" type="System.Drawing.Point, System.Drawing"><value>143, 0</value></data>
+	<data name="scrollBar.Size" type="System.Drawing.Size, System.Drawing"><value>17, 150</value></data>
+	<data name="scrollBar.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="scrollBar.ToolTip"><value /></data>
+	<data name="searchImageGoogleMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>223, 22</value></data>
+	<data name="searchImageGoogleMenuItem.Text"><value>類似画像を検索 (Google)</value></data>
+	<data name="searchImageSauceNaoMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>223, 22</value></data>
+	<data name="searchImageSauceNaoMenuItem.Text"><value>類似画像を検索 (SauceNAO)</value></data>
+	<data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing"><value>220, 6</value></data>
+	<metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"><value>17, 17</value></metadata>
+</root>

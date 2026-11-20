@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="CloseButton.Location" type="System.Drawing.Point, System.Drawing"><value>184, 179</value></data>
+	<data name="CloseButton.Size" type="System.Drawing.Size, System.Drawing"><value>44, 22</value></data>
+	<data name="CloseButton.Text"><value>&amp;Close</value></data>
+	<data name="ListRefreshButton.Size" type="System.Drawing.Size, System.Drawing"><value>79, 22</value></data>
+	<data name="ListRefreshButton.Text"><value>&amp;Reload Lists</value></data>
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="CheckNicoms.Size" type="System.Drawing.Size, System.Drawing"><value>196, 16</value></data>
+	<data name="CheckNicoms.Text"><value>Shorten nicovideo urls by nico.ms</value></data>
+	<data name="EncryptApiKeyButton.Size" type="System.Drawing.Size, System.Drawing"><value>154, 23</value></data>
+	<data name="EncryptApiKeyButton.Text"><value>API Key Encryption</value></data>
+	<data name="Label29.Size" type="System.Drawing.Size, System.Drawing"><value>185, 12</value></data>
+	<data name="Label29.Text"><value>Language at translation destination</value></data>
+	<data name="Label39.Size" type="System.Drawing.Size, System.Drawing"><value>299, 12</value></data>
+	<data name="Label39.Text"><value>Your appoint URL(Replace "{ID}" to tweet's ScreenName)</value></data>
+	<data name="Label40.Size" type="System.Drawing.Size, System.Drawing"><value>82, 12</value></data>
+	<data name="Label40.Text"><value>Thumbnail Size</value></data>
+	<data name="Label41.Text"><value>Zoom Level</value></data>
+	<data name="label48.Size" type="System.Drawing.Size, System.Drawing"><value>72, 12</value></data>
+	<data name="label48.Text"><value>Map Provider</value></data>
+	<data name="MapThumbnailGroupBox.Text"><value>Map Thumbnail</value></data>
+</root>

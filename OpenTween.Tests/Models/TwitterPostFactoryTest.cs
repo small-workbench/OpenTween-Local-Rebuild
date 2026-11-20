@@ -1,0 +1,883 @@
+﻿// OpenTween - Client of Twitter
+// Copyright (c) 2013 kim_upsilon (@kim_upsilon) <https://upsilo.net/~upsilon/>
+// All rights reserved.
+//
+// This file is part of OpenTween.
+//
+// This program is free software; you can redistribute it and/or modify it
+// under the terms of the GNU General Public License as published by the Free
+// Software Foundation; either version 3 of the License, or (at your option)
+// any later version.
+//
+// This program is distributed in the hope that it will be useful, but
+// WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+// or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+// for more details.
+//
+// You should have received a copy of the GNU General Public License along
+// with this program. If not, see <http://www.gnu.org/licenses/>, or write to
+// the Free Software Foundation, Inc., 51 Franklin Street - Fifth Floor,
+// Boston, MA 02110-1301, USA.
+
+using System;
+using System.Collections.Generic;
+using OpenTween.Api.DataModel;
+using Xunit;
+
+namespace OpenTween.Models
+{
+    public class TwitterPostFactoryTest
+    {
+        private static readonly ISet<PersonId> EmptyIdSet = new HashSet<PersonId>();
+
+        private readonly Random random = new();
+
+        private TabInformations CreateTabinfo()
+        {
+            var tabinfo = new TabInformations();
+            tabinfo.AddDefaultTabs();
+            return tabinfo;
+        }
+
+        private TwitterStatus CreateStatus()
+        {
+            var statusId = this.random.Next(10000);
+
+            return new()
+            {
+                IdStr = statusId.ToString(),
+                CreatedAt = "Sat Jan 01 00:00:00 +0000 2022",
+                FullText = "hoge",
+                Source = """<a href="https://www.opentween.org/" rel="nofollow">OpenTween</a>""",
+                Entities = new(),
+                User = this.CreateUser(),
+            };
+        }
+
+        private TwitterUser CreateUser()
+        {
+            var userId = this.random.Next(10000);
+
+            return new()
+            {
+                IdStr = userId.ToString(),
+                ScreenName = "tetete",
+                Name = "ててて",
+                ProfileImageUrlHttps = "https://example.com/profile.png",
+            };
+        }
+
+        [Fact]
+        public void CreateFromStatus_Test()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+            var status = this.CreateStatus();
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.Equal(new TwitterStatusId(status.IdStr), post.StatusId);
+            Assert.Equal(new($"https://twitter.com/tetete/status/{status.IdStr}"), post.PostUri);
+            Assert.Equal(new DateTimeUtc(2022, 1, 1, 0, 0, 0), post.CreatedAt);
+            Assert.Equal("hoge", post.Text);
+            Assert.Equal("hoge", post.TextFromApi);
+            Assert.Equal("hoge", post.TextSingleLine);
+            Assert.Equal("hoge", post.AccessibleText);
+            Assert.Empty(post.ReplyToList);
+            Assert.Empty(post.QuoteStatusIds);
+            Assert.Empty(post.ExpandedUrls);
+            Assert.Empty(post.Media);
+            Assert.Null(post.PostGeo);
+            Assert.Equal("OpenTween", post.Source);
+            Assert.Equal("https://www.opentween.org/", post.SourceUri?.OriginalString);
+            Assert.Equal(0, post.FavoritedCount);
+            Assert.False(post.IsFav);
+            Assert.False(post.IsDm);
+            Assert.False(post.IsDeleted);
+            Assert.False(post.IsRead);
+            Assert.False(post.IsExcludeReply);
+            Assert.False(post.FilterHit);
+            Assert.False(post.IsMark);
+
+            Assert.False(post.IsReply);
+            Assert.Null(post.InReplyToStatusId);
+            Assert.Null(post.InReplyToUserId);
+            Assert.Null(post.InReplyToUser);
+
+            Assert.Null(post.RetweetedId);
+            Assert.Null(post.RetweetedBy);
+            Assert.Null(post.RetweetedByUserId);
+
+            Assert.Equal(new TwitterUserId(status.User.IdStr), post.UserId);
+            Assert.Equal("tetete", post.ScreenName);
+            Assert.Equal("ててて", post.Nickname);
+            Assert.Equal("https://example.com/profile.png", post.ImageUrl);
+            Assert.False(post.IsProtect);
+            Assert.False(post.IsOwl);
+            Assert.False(post.IsMe);
+
+            Assert.False(post.IsRead);
+        }
+
+        [Fact]
+        public void CreateFromStatus_AuthorTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+            var status = this.CreateStatus();
+            var selfUserId = new TwitterUserId(status.User.IdStr);
+            var post = factory.CreateFromStatus(status, selfUserId, followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.True(post.IsMe);
+        }
+
+        [Fact]
+        public void CreateFromStatus_FollowerTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+            var status = this.CreateStatus();
+            var followerIds = new HashSet<PersonId> { new TwitterUserId(status.User.IdStr) };
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds, firstLoad: false);
+
+            Assert.False(post.IsOwl);
+        }
+
+        [Fact]
+        public void CreateFromStatus_NotFollowerTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+            var status = this.CreateStatus();
+            var followerIds = new HashSet<PersonId> { new TwitterUserId("30000") };
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds, firstLoad: false);
+
+            Assert.True(post.IsOwl);
+        }
+
+        [Fact]
+        public void CreateFromStatus_RetweetTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+            var originalStatus = this.CreateStatus();
+
+            var retweetStatus = this.CreateStatus();
+            retweetStatus.RetweetedStatus = originalStatus;
+            retweetStatus.Source = """<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>""";
+
+            var post = factory.CreateFromStatus(retweetStatus, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.Equal(new TwitterStatusId(retweetStatus.IdStr), post.StatusId);
+            Assert.Equal(new TwitterUserId(retweetStatus.User.IdStr), post.RetweetedByUserId);
+            Assert.Equal(new TwitterStatusId(originalStatus.IdStr), post.RetweetedId);
+            Assert.Equal(new TwitterUserId(originalStatus.User.IdStr), post.UserId);
+
+            Assert.Equal("OpenTween", post.Source);
+            Assert.Equal("https://www.opentween.org/", post.SourceUri?.OriginalString);
+        }
+
+        [Fact]
+        public void CreateFromStatus_FirstLoadNotUnreadTest()
+        {
+            var settingCommon = new SettingCommon
+            {
+                Read = true, // 起動時の読み込み分を既読扱いにする
+            };
+
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), settingCommon);
+            var status = this.CreateStatus();
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: true);
+
+            Assert.True(post.IsRead); // 既読
+        }
+
+        [Fact]
+        public void CreateFromStatus_FirstLoadUnreadTest()
+        {
+            var settingCommon = new SettingCommon
+            {
+                Read = false, // 起動時の読み込み分を既読扱いにしない
+            };
+
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), settingCommon);
+            var status = this.CreateStatus();
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: true);
+
+            Assert.False(post.IsRead); // 未読
+        }
+
+        [Fact]
+        public void CreateFromStatus_SelfPostUnreadTest()
+        {
+            var settingCommon = new SettingCommon
+            {
+                ReadOwnPost = false, // 自分自身の発言を既読扱いにしない
+            };
+
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), settingCommon);
+            var status = this.CreateStatus();
+            status.User.IdStr = "20000";
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.False(post.IsRead); // 未読
+        }
+
+        [Fact]
+        public void CreateFromStatus_SelfPostNotUnreadTest()
+        {
+            var settingCommon = new SettingCommon
+            {
+                ReadOwnPost = true, // 自分自身の発言を既読扱いにする
+            };
+
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), settingCommon);
+            var status = this.CreateStatus();
+            status.User.IdStr = "20000";
+            var post = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.True(post.IsRead); // 既読
+        }
+
+        private TwitterMessageEvent CreateDirectMessage(string senderId, string recipientId)
+        {
+            var messageId = this.random.Next(10000);
+
+            return new()
+            {
+                Type = "message_create",
+                Id = messageId.ToString(),
+                CreatedTimestamp = "1640995200000",
+                MessageCreate = new()
+                {
+                    SenderId = senderId,
+                    Target = new()
+                    {
+                        RecipientId = recipientId,
+                    },
+                    MessageData = new()
+                    {
+                        Text = "hoge",
+                        Entities = new(),
+                    },
+                    SourceAppId = "22519141",
+                },
+            };
+        }
+
+        private Dictionary<string, TwitterMessageEventList.App> CreateApps()
+        {
+            return new()
+            {
+                ["22519141"] = new()
+                {
+                    Id = "22519141",
+                    Name = "OpenTween",
+                    Url = "https://www.opentween.org/",
+                },
+            };
+        }
+
+        [Fact]
+        public void CreateFromDirectMessageEvent_Test()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var selfUser = this.CreateUser();
+            var otherUser = this.CreateUser();
+            var eventItem = this.CreateDirectMessage(senderId: otherUser.IdStr, recipientId: selfUser.IdStr);
+            var users = new Dictionary<TwitterUserId, TwitterUser>()
+            {
+                [new(selfUser.IdStr)] = selfUser,
+                [new(otherUser.IdStr)] = otherUser,
+            };
+            var apps = this.CreateApps();
+            var post = factory.CreateFromDirectMessageEvent(eventItem, users, apps, selfUserId: new(selfUser.IdStr), firstLoad: false);
+
+            Assert.Equal(new TwitterDirectMessageId(eventItem.Id), post.StatusId);
+            Assert.Null(post.PostUri);
+            Assert.Equal(new DateTimeUtc(2022, 1, 1, 0, 0, 0), post.CreatedAt);
+            Assert.Equal("hoge", post.Text);
+            Assert.Equal("hoge", post.TextFromApi);
+            Assert.Equal("hoge", post.TextSingleLine);
+            Assert.Equal("hoge", post.AccessibleText);
+            Assert.Empty(post.ReplyToList);
+            Assert.Empty(post.QuoteStatusIds);
+            Assert.Empty(post.ExpandedUrls);
+            Assert.Empty(post.Media);
+            Assert.Null(post.PostGeo);
+            Assert.Equal("OpenTween", post.Source);
+            Assert.Equal("https://www.opentween.org/", post.SourceUri?.OriginalString);
+            Assert.Equal(0, post.FavoritedCount);
+            Assert.False(post.IsFav);
+            Assert.True(post.IsDm);
+            Assert.False(post.IsDeleted);
+            Assert.False(post.IsRead);
+            Assert.False(post.IsExcludeReply);
+            Assert.False(post.FilterHit);
+            Assert.False(post.IsMark);
+
+            Assert.False(post.IsReply);
+            Assert.Null(post.InReplyToStatusId);
+            Assert.Null(post.InReplyToUserId);
+            Assert.Null(post.InReplyToUser);
+
+            Assert.Null(post.RetweetedId);
+            Assert.Null(post.RetweetedBy);
+            Assert.Null(post.RetweetedByUserId);
+
+            Assert.Equal(new TwitterUserId(otherUser.IdStr), post.UserId);
+            Assert.Equal("tetete", post.ScreenName);
+            Assert.Equal("ててて", post.Nickname);
+            Assert.Equal("https://example.com/profile.png", post.ImageUrl);
+            Assert.False(post.IsProtect);
+            Assert.True(post.IsOwl);
+            Assert.False(post.IsMe);
+
+            Assert.False(post.IsRead);
+        }
+
+        [Fact]
+        public void CreateFromDirectMessageEvent_SenderTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var selfUser = this.CreateUser();
+            var otherUser = this.CreateUser();
+            var eventItem = this.CreateDirectMessage(senderId: selfUser.IdStr, recipientId: otherUser.IdStr);
+            var users = new Dictionary<TwitterUserId, TwitterUser>()
+            {
+                [new(selfUser.IdStr)] = selfUser,
+                [new(otherUser.IdStr)] = otherUser,
+            };
+            var apps = this.CreateApps();
+            var post = factory.CreateFromDirectMessageEvent(eventItem, users, apps, selfUserId: new(selfUser.IdStr), firstLoad: false);
+
+            Assert.Equal(new TwitterUserId(otherUser.IdStr), post.UserId);
+            Assert.False(post.IsOwl);
+            Assert.True(post.IsMe);
+        }
+
+        [Fact]
+        public void GetReceivedHashtags_Test()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+            var status = this.CreateStatus();
+            status.FullText = "hoge #OpenTween";
+            status.Entities.Hashtags = new[]
+            {
+                new TwitterEntityHashtag
+                {
+                    Indices = new[] { 5, 15 },
+                    Text = "OpenTween",
+                },
+            };
+
+            _ = factory.CreateFromStatus(status, selfUserId: new("20000"), followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.Equal(new[] { "#OpenTween" }, factory.GetReceivedHashtags());
+            Assert.Empty(factory.GetReceivedHashtags());
+        }
+
+        [Fact]
+        public void CreateFromStatus_MediaAltTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var status = this.CreateStatus();
+            status.FullText = "https://t.co/hoge";
+            status.ExtendedEntities = new()
+            {
+                Media = new[]
+                {
+                    new TwitterEntityMedia
+                    {
+                        Indices = new[] { 0, 17 },
+                        Url = "https://t.co/hoge",
+                        DisplayUrl = "pic.twitter.com/hoge",
+                        ExpandedUrl = "https://twitter.com/hoge/status/1234567890/photo/1",
+                        AltText = "代替テキスト",
+                    },
+                },
+            };
+
+            var post = factory.CreateFromStatus(status, selfUserId: new("100"), followerIds: EmptyIdSet, firstLoad: false);
+
+            var accessibleText = string.Format(Properties.Resources.ImageAltText, "代替テキスト");
+            Assert.Equal(accessibleText, post.AccessibleText);
+            Assert.Equal("""<a href="https://t.co/hoge" title="代替テキスト">pic.twitter.com/hoge</a>""", post.Text);
+            Assert.Equal("pic.twitter.com/hoge", post.TextFromApi);
+            Assert.Equal("pic.twitter.com/hoge", post.TextSingleLine);
+        }
+
+        [Fact]
+        public void CreateFromStatus_MediaNoAltTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var status = this.CreateStatus();
+            status.FullText = "https://t.co/hoge";
+            status.ExtendedEntities = new()
+            {
+                Media = new[]
+                {
+                    new TwitterEntityMedia
+                    {
+                        Indices = new[] { 0, 17 },
+                        Url = "https://t.co/hoge",
+                        DisplayUrl = "pic.twitter.com/hoge",
+                        ExpandedUrl = "https://twitter.com/hoge/status/1234567890/photo/1",
+                        AltText = null,
+                    },
+                },
+            };
+
+            var post = factory.CreateFromStatus(status, selfUserId: new("100"), followerIds: EmptyIdSet, firstLoad: false);
+
+            Assert.Equal("pic.twitter.com/hoge", post.AccessibleText);
+            Assert.Equal("""<a href="https://t.co/hoge" title="https://twitter.com/hoge/status/1234567890/photo/1">pic.twitter.com/hoge</a>""", post.Text);
+            Assert.Equal("pic.twitter.com/hoge", post.TextFromApi);
+            Assert.Equal("pic.twitter.com/hoge", post.TextSingleLine);
+        }
+
+        [Fact]
+        public void CreateFromStatus_QuotedUrlTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var status = this.CreateStatus();
+            status.FullText = "https://t.co/hoge";
+            status.Entities = new()
+            {
+                Urls = new[]
+                {
+                    new TwitterEntityUrl
+                    {
+                        Indices = new[] { 0, 17 },
+                        Url = "https://t.co/hoge",
+                        DisplayUrl = "twitter.com/hoge/status/1…",
+                        ExpandedUrl = "https://twitter.com/hoge/status/1234567890",
+                    },
+                },
+            };
+            status.QuotedStatus = new()
+            {
+                IdStr = "1234567890",
+                User = new()
+                {
+                    IdStr = "1111",
+                    ScreenName = "foo",
+                },
+                FullText = "test",
+            };
+
+            var post = factory.CreateFromStatus(status, selfUserId: new("100"), followerIds: EmptyIdSet, firstLoad: false);
+
+            var accessibleText = string.Format(Properties.Resources.QuoteStatus_AccessibleText, "foo", "test");
+            Assert.Equal(accessibleText, post.AccessibleText);
+            Assert.Equal("""<a href="https://twitter.com/hoge/status/1234567890" title="https://twitter.com/hoge/status/1234567890">twitter.com/hoge/status/1…</a>""", post.Text);
+            Assert.Equal("twitter.com/hoge/status/1…", post.TextFromApi);
+            Assert.Equal("twitter.com/hoge/status/1…", post.TextSingleLine);
+        }
+
+        [Fact]
+        public void CreateFromStatus_QuotedUrlWithPermelinkTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var status = this.CreateStatus();
+            status.FullText = "hoge";
+            status.QuotedStatus = new()
+            {
+                IdStr = "1234567890",
+                User = new TwitterUser
+                {
+                    IdStr = "1111",
+                    ScreenName = "foo",
+                },
+                FullText = "test",
+            };
+            status.QuotedStatusPermalink = new()
+            {
+                Url = "https://t.co/hoge",
+                Display = "twitter.com/hoge/status/1…",
+                Expanded = "https://twitter.com/hoge/status/1234567890",
+            };
+
+            var post = factory.CreateFromStatus(status, selfUserId: new("100"), followerIds: EmptyIdSet, firstLoad: false);
+
+            var accessibleText = "hoge " + string.Format(Properties.Resources.QuoteStatus_AccessibleText, "foo", "test");
+            Assert.Equal(accessibleText, post.AccessibleText);
+            Assert.Equal("""hoge <a href="https://twitter.com/hoge/status/1234567890" title="https://twitter.com/hoge/status/1234567890">twitter.com/hoge/status/1…</a>""", post.Text);
+            Assert.Equal("hoge twitter.com/hoge/status/1…", post.TextFromApi);
+            Assert.Equal("hoge twitter.com/hoge/status/1…", post.TextSingleLine);
+        }
+
+        [Fact]
+        public void CreateFromStatus_QuotedUrlNoReferenceTest()
+        {
+            var factory = new TwitterPostFactory(this.CreateTabinfo(), new());
+
+            var status = this.CreateStatus();
+            status.FullText = "https://t.co/hoge";
+            status.Entities = new()
+            {
+                Urls = new[]
+                {
+                    new TwitterEntityUrl
+                    {
+                        Indices = new[] { 0, 17 },
+                        Url = "https://t.co/hoge",
+                        DisplayUrl = "twitter.com/hoge/status/1…",
+                        ExpandedUrl = "https://twitter.com/hoge/status/1234567890",
+                    },
+                },
+            };
+            status.QuotedStatus = null;
+
+            var post = factory.CreateFromStatus(status, selfUserId: new("100"), followerIds: EmptyIdSet, firstLoad: false);
+
+            var accessibleText = "twitter.com/hoge/status/1…";
+            Assert.Equal(accessibleText, post.AccessibleText);
+            Assert.Equal("""<a href="https://twitter.com/hoge/status/1234567890" title="https://twitter.com/hoge/status/1234567890">twitter.com/hoge/status/1…</a>""", post.Text);
+            Assert.Equal("twitter.com/hoge/status/1…", post.TextFromApi);
+            Assert.Equal("twitter.com/hoge/status/1…", post.TextSingleLine);
+        }
+
+        [Fact]
+        public void CreateHtmlAnchor_Test()
+        {
+            var text = "@twitterapi #BreakingMyTwitter https://t.co/mIJcSoVSK3";
+            var entities = new TwitterEntities
+            {
+                UserMentions = new[]
+                {
+                    new TwitterEntityMention { Indices = new[] { 0, 11 }, ScreenName = "twitterapi" },
+                },
+                Hashtags = new[]
+                {
+                    new TwitterEntityHashtag { Indices = new[] { 12, 30 }, Text = "BreakingMyTwitter" },
+                },
+                Urls = new[]
+                {
+                    new TwitterEntityUrl
+                    {
+                        Indices = new[] { 31, 54 },
+                        Url = "https://t.co/mIJcSoVSK3",
+                        DisplayUrl = "apps-of-a-feather.com",
+                        ExpandedUrl = "http://apps-of-a-feather.com/",
+                    },
+                },
+            };
+
+            var expectedHtml = """<a class="mention" href="https://twitter.com/twitterapi">@twitterapi</a>"""
+                + """ <a class="hashtag" href="https://twitter.com/search?q=%23BreakingMyTwitter">#BreakingMyTwitter</a>"""
+                + """ <a href="https://t.co/mIJcSoVSK3" title="https://t.co/mIJcSoVSK3">apps-of-a-feather.com</a>""";
+
+            Assert.Equal(expectedHtml, TwitterPostFactory.CreateHtmlAnchor(text, entities, quotedStatusLink: null));
+        }
+
+        [Fact]
+        public void CreateHtmlAnchor_NicovideoTest()
+        {
+            var text = "sm9";
+            var entities = new TwitterEntities();
+
+            var expectedHtml = """<a href="https://www.nicovideo.jp/watch/sm9">sm9</a>""";
+
+            Assert.Equal(expectedHtml, TwitterPostFactory.CreateHtmlAnchor(text, entities, quotedStatusLink: null));
+        }
+
+        [Fact]
+        public void CreateHtmlAnchor_QuotedUrlWithPermelinkTest()
+        {
+            var text = "hoge";
+            var entities = new TwitterEntities();
+            var quotedStatusLink = new TwitterQuotedStatusPermalink
+            {
+                Url = "https://t.co/hoge",
+                Display = "twitter.com/hoge/status/1…",
+                Expanded = "https://twitter.com/hoge/status/1234567890",
+            };
+
+            var expectedHtml = @"hoge"
+                + """ <a href="https://twitter.com/hoge/status/1234567890" title="https://twitter.com/hoge/status/1234567890">twitter.com/hoge/status/1…</a>""";
+
+            Assert.Equal(expectedHtml, TwitterPostFactory.CreateHtmlAnchor(text, entities, quotedStatusLink));
+        }
+
+        [Fact]
+        public void ParseSource_Test()
+        {
+            var sourceHtml = """<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>""";
+
+            var expected = ("Twitter Web Client", new Uri("http://twitter.com/"));
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void ParseSource_PlainTextTest()
+        {
+            var sourceHtml = "web";
+
+            var expected = ("web", (Uri?)null);
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void ParseSource_RelativeUriTest()
+        {
+            // 参照: https://twitter.com/kim_upsilon/status/477796052049752064
+            var sourceHtml = """<a href="erased_45416" rel="nofollow">erased_45416</a>""";
+
+            var expected = ("erased_45416", new Uri("https://twitter.com/erased_45416"));
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void ParseSource_EmptyTest()
+        {
+            // 参照: https://twitter.com/kim_upsilon/status/595156014032244738
+            var sourceHtml = "";
+
+            var expected = ("", (Uri?)null);
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void ParseSource_NullTest()
+        {
+            string? sourceHtml = null;
+
+            var expected = ("", (Uri?)null);
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void ParseSource_UnescapeTest()
+        {
+            var sourceHtml = """<a href="http://example.com/?aaa=123&amp;bbb=456" rel="nofollow">&lt;&lt;hogehoge&gt;&gt;</a>""";
+
+            var expected = ("<<hogehoge>>", new Uri("http://example.com/?aaa=123&bbb=456"));
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void ParseSource_UnescapeNoUriTest()
+        {
+            var sourceHtml = "&lt;&lt;hogehoge&gt;&gt;";
+
+            var expected = ("<<hogehoge>>", (Uri?)null);
+            Assert.Equal(expected, TwitterPostFactory.ParseSource(sourceHtml));
+        }
+
+        [Fact]
+        public void GetQuoteTweetStatusIds_EntityTest()
+        {
+            var entities = new[]
+            {
+                new TwitterEntityUrl
+                {
+                    Url = "https://t.co/3HXq0LrbJb",
+                    ExpandedUrl = "https://twitter.com/kim_upsilon/status/599261132361072640",
+                },
+            };
+
+            var statusIds = TwitterPostFactory.GetQuoteTweetStatusIds(entities, quotedStatusLink: null);
+            Assert.Equal(new[] { new TwitterStatusId("599261132361072640") }, statusIds);
+        }
+
+        [Fact]
+        public void GetQuoteTweetStatusIds_QuotedStatusLinkTest()
+        {
+            var entities = new TwitterEntities();
+            var quotedStatusLink = new TwitterQuotedStatusPermalink
+            {
+                Url = "https://t.co/3HXq0LrbJb",
+                Expanded = "https://twitter.com/kim_upsilon/status/599261132361072640",
+            };
+
+            var statusIds = TwitterPostFactory.GetQuoteTweetStatusIds(entities, quotedStatusLink);
+            Assert.Equal(new[] { new TwitterStatusId("599261132361072640") }, statusIds);
+        }
+
+        [Fact]
+        public void GetQuoteTweetStatusIds_UrlStringTest()
+        {
+            var urls = new[]
+            {
+                "https://twitter.com/kim_upsilon/status/599261132361072640",
+            };
+
+            var statusIds = TwitterPostFactory.GetQuoteTweetStatusIds(urls);
+            Assert.Equal(new[] { new TwitterStatusId("599261132361072640") }, statusIds);
+        }
+
+        [Fact]
+        public void ParseDateTimeFromSnowflakeId_LowerTest()
+        {
+            var statusId = new TwitterStatusId("1659990873340346368");
+            var createdAtStr = "Sat May 20 18:34:00 +0000 2023";
+            var expected = new DateTimeUtc(2023, 5, 20, 18, 34, 0, 0);
+            Assert.Equal(expected, TwitterPostFactory.ParseDateTimeFromSnowflakeId(statusId, createdAtStr));
+        }
+
+        [Fact]
+        public void ParseDateTimeFromSnowflakeId_UpperTest()
+        {
+            var statusId = new TwitterStatusId("1672312060766748673");
+            var createdAtStr = "Fri Jun 23 18:33:59 +0000 2023";
+            var expected = new DateTimeUtc(2023, 6, 23, 18, 33, 59, 999);
+            Assert.Equal(expected, TwitterPostFactory.ParseDateTimeFromSnowflakeId(statusId, createdAtStr));
+        }
+
+        [Fact]
+        public void ParseDateTimeFromSnowflakeId_FallbackTest()
+        {
+            // Snowflake 導入以前の status_id に対しては created_at の文字列からパースした日時を採用する
+            var statusId = new TwitterStatusId("20");
+            var createdAtStr = "Tue Mar 21 20:50:14 +0000 2006";
+            var expected = new DateTimeUtc(2006, 3, 21, 20, 50, 14, 0);
+            Assert.Equal(expected, TwitterPostFactory.ParseDateTimeFromSnowflakeId(statusId, createdAtStr));
+        }
+
+        [Fact]
+        public void ParseDateTimeFromSnowflakeId_FallbackNotNumericTest()
+        {
+            // id_str が long 型に変換できない形式だった場合は created_at からパースした日時を採用する
+            var statusId = new TwitterStatusId("abcdef");
+            var createdAtStr = "Mon Jan 01 00:00:00 +0000 2024";
+            var expected = new DateTimeUtc(2024, 1, 1, 0, 0, 0, 0);
+            Assert.Equal(expected, TwitterPostFactory.ParseDateTimeFromSnowflakeId(statusId, createdAtStr));
+        }
+
+        [Fact]
+        public void AdjustSortKeyForPromotedPost_BetweenNormatPostsTest()
+        {
+            // プロモーション以外のツイートは投稿日時の降順に並んでいると仮定する
+            var posts = new[]
+            {
+                new PostClass
+                {
+                    IsPromoted = false,
+                    CreatedAtForSorting = new(2023, 8, 1, 0, 0, 0, 6),
+                },
+                // 中間にあるプロモーションツイートは前後のツイートの中間に配置されるように調整する
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 7, 31, 0, 0, 0, 0),
+                },
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 9, 22, 0, 0, 0, 0),
+                },
+                new PostClass
+                {
+                    IsPromoted = false,
+                    CreatedAtForSorting = new(2023, 8, 1, 0, 0, 0, 0),
+                },
+            };
+
+            TwitterPostFactory.AdjustSortKeyForPromotedPost(posts);
+
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 6), posts[0].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 4), posts[1].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 2), posts[2].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 0), posts[3].CreatedAtForSorting);
+        }
+
+        [Fact]
+        public void AdjustSortKeyForPromotedPost_BeforeNormatPostsTest()
+        {
+            // プロモーション以外のツイートは投稿日時の降順に並んでいると仮定する
+            var posts = new[]
+            {
+                // 先頭にあるプロモーションツイートは最初の通常ツイートを基準に 1ms ずつ加算した値をセットする
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 7, 31, 0, 0, 0, 0),
+                },
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 9, 22, 0, 0, 0, 0),
+                },
+                new PostClass
+                {
+                    IsPromoted = false,
+                    CreatedAtForSorting = new(2023, 8, 1, 0, 0, 0, 0),
+                },
+            };
+
+            TwitterPostFactory.AdjustSortKeyForPromotedPost(posts);
+
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 2), posts[0].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 1), posts[1].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 0), posts[2].CreatedAtForSorting);
+        }
+
+        [Fact]
+        public void AdjustSortKeyForPromotedPost_AfterNormatPostsTest()
+        {
+            // プロモーション以外のツイートは投稿日時の降順に並んでいると仮定する
+            var posts = new[]
+            {
+                new PostClass
+                {
+                    IsPromoted = false,
+                    CreatedAtForSorting = new(2023, 8, 1, 0, 0, 0, 6),
+                },
+                // 末尾にあるプロモーションツイートは最後の通常ツイートを基準に 1ms ずつ減算した値をセットする
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 7, 31, 0, 0, 0, 0),
+                },
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 9, 22, 0, 0, 0, 0),
+                },
+            };
+
+            TwitterPostFactory.AdjustSortKeyForPromotedPost(posts);
+
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 6), posts[0].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 5), posts[1].CreatedAtForSorting);
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 4), posts[2].CreatedAtForSorting);
+        }
+
+        [Fact]
+        public void AdjustSortKeyForPromotedPost_NormatPostsOnlyTest()
+        {
+            // プロモーションツイートが一件もない場合も正常に動くことをテストする
+            var posts = new[]
+            {
+                new PostClass
+                {
+                    IsPromoted = false,
+                    CreatedAtForSorting = new(2023, 8, 1, 0, 0, 0, 0),
+                },
+            };
+
+            TwitterPostFactory.AdjustSortKeyForPromotedPost(posts);
+
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 0), posts[0].CreatedAtForSorting);
+        }
+
+        [Fact]
+        public void AdjustSortKeyForPromotedPost_PromotedPostsOnlyTest()
+        {
+            // プロモーションツイートしか存在しない場合も正常に動くことをテストする
+            var posts = new[]
+            {
+                new PostClass
+                {
+                    IsPromoted = true,
+                    CreatedAtForSorting = new(2023, 8, 1, 0, 0, 0, 0),
+                },
+            };
+
+            TwitterPostFactory.AdjustSortKeyForPromotedPost(posts);
+
+            Assert.Equal(new(2023, 8, 1, 0, 0, 0, 0), posts[0].CreatedAtForSorting);
+        }
+    }
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing"><value>634, 361</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 4, 3, 4</value></data>
+	<data name="$this.Text"><value>エラーレポートを送信</value></data>
+	<data name="&gt;&gt;$this.Name"><value>SendErrorReportForm</value></data>
+	<data name="&gt;&gt;$this.Type"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;bindingSource.Name"><value>bindingSource</value></data>
+	<data name="&gt;&gt;bindingSource.Type"><value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonNotSend.Name"><value>buttonNotSend</value></data>
+	<data name="&gt;&gt;buttonNotSend.Parent"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;buttonNotSend.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonNotSend.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;buttonReset.Name"><value>buttonReset</value></data>
+	<data name="&gt;&gt;buttonReset.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;buttonReset.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonReset.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;buttonSendByDM.Name"><value>buttonSendByDM</value></data>
+	<data name="&gt;&gt;buttonSendByDM.Parent"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;buttonSendByDM.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonSendByDM.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;buttonSendByMail.Name"><value>buttonSendByMail</value></data>
+	<data name="&gt;&gt;buttonSendByMail.Parent"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;buttonSendByMail.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonSendByMail.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;checkBoxAnonymouns.Name"><value>checkBoxAnonymouns</value></data>
+	<data name="&gt;&gt;checkBoxAnonymouns.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;checkBoxAnonymouns.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;checkBoxAnonymouns.ZOrder"><value>6</value></data>
+	<data name="&gt;&gt;label1.Name"><value>label1</value></data>
+	<data name="&gt;&gt;label1.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;label1.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;label1.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;label2.Name"><value>label2</value></data>
+	<data name="&gt;&gt;label2.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;label2.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;label2.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;pictureBoxIcon.Name"><value>pictureBoxIcon</value></data>
+	<data name="&gt;&gt;pictureBoxIcon.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;pictureBoxIcon.Type"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;pictureBoxIcon.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.Name"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.Type"><value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.ZOrder"><value>5</value></data>
+	<data name="&gt;&gt;textBoxErrorReport.Name"><value>textBoxErrorReport</value></data>
+	<data name="&gt;&gt;textBoxErrorReport.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;textBoxErrorReport.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;textBoxErrorReport.ZOrder"><value>4</value></data>
+	<metadata name="bindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"><value>17, 17</value></metadata>
+	<data name="buttonNotSend.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="buttonNotSend.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="buttonNotSend.Location" type="System.Drawing.Point, System.Drawing"><value>237, 2</value></data>
+	<data name="buttonNotSend.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="buttonNotSend.Size" type="System.Drawing.Size, System.Drawing"><value>113, 25</value></data>
+	<data name="buttonNotSend.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="buttonNotSend.Text"><value>送信しない(&amp;D)</value></data>
+	<data name="buttonReset.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Left</value></data>
+	<data name="buttonReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="buttonReset.Location" type="System.Drawing.Point, System.Drawing"><value>12, 322</value></data>
+	<data name="buttonReset.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="buttonReset.Size" type="System.Drawing.Size, System.Drawing"><value>111, 25</value></data>
+	<data name="buttonReset.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="buttonReset.Text"><value>リセット(&amp;R)</value></data>
+	<data name="buttonSendByDM.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="buttonSendByDM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="buttonSendByDM.Location" type="System.Drawing.Point, System.Drawing"><value>120, 2</value></data>
+	<data name="buttonSendByDM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="buttonSendByDM.Size" type="System.Drawing.Size, System.Drawing"><value>111, 25</value></data>
+	<data name="buttonSendByDM.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="buttonSendByDM.Text"><value>D&amp;Mで送信</value></data>
+	<data name="buttonSendByMail.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="buttonSendByMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="buttonSendByMail.Location" type="System.Drawing.Point, System.Drawing"><value>3, 2</value></data>
+	<data name="buttonSendByMail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="buttonSendByMail.Size" type="System.Drawing.Size, System.Drawing"><value>111, 25</value></data>
+	<data name="buttonSendByMail.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="buttonSendByMail.Text"><value>メールで送信(&amp;E)</value></data>
+	<data name="checkBoxAnonymouns.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Left</value></data>
+	<data name="checkBoxAnonymouns.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="checkBoxAnonymouns.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="checkBoxAnonymouns.Location" type="System.Drawing.Point, System.Drawing"><value>14, 246</value></data>
+	<data name="checkBoxAnonymouns.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>5, 5, 5, 5</value></data>
+	<data name="checkBoxAnonymouns.Size" type="System.Drawing.Size, System.Drawing"><value>376, 16</value></data>
+	<data name="checkBoxAnonymouns.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="checkBoxAnonymouns.Text"><value>報告者名（スクリーンネーム）の更新履歴への掲載を希望しない（オプション）</value></data>
+	<data name="label1.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="label1.Location" type="System.Drawing.Point, System.Drawing"><value>54, 19</value></data>
+	<data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 10, 3, 10</value></data>
+	<data name="label1.Size" type="System.Drawing.Size, System.Drawing"><value>399, 12</value></data>
+	<data name="label1.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="label1.Text"><value>エラーが発生しました。お手数ですが、エラーレポートの送信にご協力をお願いします。</value></data>
+	<data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Left</value></data>
+	<data name="label2.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="label2.Location" type="System.Drawing.Point, System.Drawing"><value>12, 269</value></data>
+	<data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="label2.Size" type="System.Drawing.Size, System.Drawing"><value>532, 36</value></data>
+	<data name="label2.TabIndex" type="System.Int32, mscorlib"><value>3</value></data>
+	<data name="label2.Text"><value>もしエラーレポートの中にユーザー名など個人情報が含まれていた場合は、上のテキストから直接削除してください。
+
+エラーレポートの文字数によってはDMで送信できない場合があります。</value></data>
+	<data name="pictureBoxIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="pictureBoxIcon.Location" type="System.Drawing.Point, System.Drawing"><value>14, 14</value></data>
+	<data name="pictureBoxIcon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>5, 5, 5, 5</value></data>
+	<data name="pictureBoxIcon.Size" type="System.Drawing.Size, System.Drawing"><value>32, 32</value></data>
+	<data name="pictureBoxIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms"><value>Zoom</value></data>
+	<data name="pictureBoxIcon.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Right</value></data>
+	<data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib"><value>3</value></data>
+	<data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms"><value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="buttonSendByMail" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonSendByDM" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="buttonNotSend" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33.33333,Percent,33.33334,Percent,33.33334" /&gt;&lt;Rows Styles="Percent,100,Absolute,29" /&gt;&lt;/TableLayoutSettings&gt;</value></data>
+	<data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing"><value>269, 320</value></data>
+	<data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing"><value>353, 29</value></data>
+	<data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="textBoxErrorReport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Top, Bottom, Left, Right</value></data>
+	<data name="textBoxErrorReport.Location" type="System.Drawing.Point, System.Drawing"><value>12, 53</value></data>
+	<data name="textBoxErrorReport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 2, 3, 2</value></data>
+	<data name="textBoxErrorReport.Multiline" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="textBoxErrorReport.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms"><value>Vertical</value></data>
+	<data name="textBoxErrorReport.Size" type="System.Drawing.Size, System.Drawing"><value>610, 186</value></data>
+	<data name="textBoxErrorReport.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+</root>

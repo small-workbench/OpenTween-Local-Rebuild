@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="Cancel_Button.Text"><value>Cancel</value></data>
+	<data name="Label1.Size" type="System.Drawing.Size, System.Drawing"><value>37, 12</value></data>
+	<data name="Label1.Text"><value>Owner</value></data>
+	<data name="Label10.Size" type="System.Drawing.Size, System.Drawing"><value>51, 12</value></data>
+	<data name="Label10.Text"><value>Members</value></data>
+	<data name="Label12.Size" type="System.Drawing.Size, System.Drawing"><value>65, 12</value></data>
+	<data name="Label12.Text"><value>Subscribers</value></data>
+	<data name="Label4.Size" type="System.Drawing.Size, System.Drawing"><value>24, 12</value></data>
+	<data name="Label4.Text"><value>List</value></data>
+	<data name="Label6.Size" type="System.Drawing.Size, System.Drawing"><value>63, 12</value></data>
+	<data name="Label6.Text"><value>Description</value></data>
+	<data name="Label8.Size" type="System.Drawing.Size, System.Drawing"><value>38, 12</value></data>
+	<data name="Label8.Text"><value>Status</value></data>
+</root>

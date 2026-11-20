@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.Text"><value>Profile</value></data>
+	<data name="$this.ToolTip"><value /></data>
+	<data name="ButtonBlock.Text"><value>Block</value></data>
+	<data name="ButtonBlock.ToolTip"><value /></data>
+	<data name="ButtonBlockDestroy.Text"><value>Unblock</value></data>
+	<data name="ButtonBlockDestroy.ToolTip"><value /></data>
+	<data name="ButtonClose.Text"><value>Close</value></data>
+	<data name="ButtonClose.ToolTip"><value /></data>
+	<data name="ButtonEdit.Text"><value>Edit</value></data>
+	<data name="ButtonEdit.ToolTip"><value /></data>
+	<data name="ButtonFollow.Text"><value>Follow</value></data>
+	<data name="ButtonFollow.ToolTip"><value /></data>
+	<data name="ButtonReportSpam.Text"><value>Rpt Spam</value></data>
+	<data name="ButtonReportSpam.ToolTip"><value /></data>
+	<data name="ButtonSearchPosts.Text"><value>Statuses</value></data>
+	<data name="ButtonSearchPosts.ToolTip"><value /></data>
+	<data name="ButtonUnFollow.Text"><value>Unfollow</value></data>
+	<data name="ButtonUnFollow.ToolTip"><value /></data>
+	<data name="ContextMenuRecentPostBrowser.ToolTip"><value /></data>
+	<data name="ContextMenuUserPicture.ToolTip"><value /></data>
+	<data name="DescriptionBrowser.ToolTip"><value /></data>
+	<data name="Label1.Size" type="System.Drawing.Size, System.Drawing"><value>34, 12</value></data>
+	<data name="Label1.Text"><value>Name</value></data>
+	<data name="Label1.ToolTip"><value /></data>
+	<data name="Label12.Text"><value>Account ID</value></data>
+	<data name="Label12.ToolTip"><value /></data>
+	<data name="Label2.Size" type="System.Drawing.Size, System.Drawing"><value>48, 12</value></data>
+	<data name="Label2.Text"><value>Location</value></data>
+	<data name="Label2.ToolTip"><value /></data>
+	<data name="Label3.ToolTip"><value /></data>
+	<data name="Label4.Size" type="System.Drawing.Size, System.Drawing"><value>22, 12</value></data>
+	<data name="Label4.Text"><value>Bio</value></data>
+	<data name="Label4.ToolTip"><value /></data>
+	<data name="Label5.Size" type="System.Drawing.Size, System.Drawing"><value>53, 12</value></data>
+	<data name="Label5.Text"><value>Following</value></data>
+	<data name="Label5.ToolTip"><value /></data>
+	<data name="Label6.Size" type="System.Drawing.Size, System.Drawing"><value>54, 12</value></data>
+	<data name="Label6.Text"><value>Followers</value></data>
+	<data name="Label6.ToolTip"><value /></data>
+	<data name="Label7.Text"><value>Created at</value></data>
+	<data name="Label7.ToolTip"><value /></data>
+	<data name="Label8.Size" type="System.Drawing.Size, System.Drawing"><value>79, 12</value></data>
+	<data name="Label8.Text"><value>Tweets(Home)</value></data>
+	<data name="Label8.ToolTip"><value /></data>
+	<data name="Label9.Size" type="System.Drawing.Size, System.Drawing"><value>53, 12</value></data>
+	<data name="Label9.Text"><value>Favorites</value></data>
+	<data name="Label9.ToolTip"><value /></data>
+	<data name="LabelCreatedAt.ToolTip"><value /></data>
+	<data name="LabelId.ToolTip"><value /></data>
+	<data name="LabelIsFollowed.ToolTip"><value /></data>
+	<data name="LabelIsFollowing.ToolTip"><value /></data>
+	<data name="LabelIsProtected.ToolTip"><value /></data>
+	<data name="LabelIsVerified.ToolTip"><value /></data>
+	<data name="LabelLocation.ToolTip"><value /></data>
+	<data name="LabelName.ToolTip"><value /></data>
+	<data name="LabelRecentPost.Size" type="System.Drawing.Size, System.Drawing"><value>64, 12</value></data>
+	<data name="LabelRecentPost.Text"><value>Latest Post</value></data>
+	<data name="LabelRecentPost.ToolTip"><value /></data>
+	<data name="LabelScreenName.ToolTip"><value /></data>
+	<data name="LinkLabel1.Size" type="System.Drawing.Size, System.Drawing"><value>45, 12</value></data>
+	<data name="LinkLabel1.Text"><value>Verified</value></data>
+	<data name="LinkLabel1.ToolTip"><value /></data>
+	<data name="LinkLabel2.Size" type="System.Drawing.Size, System.Drawing"><value>54, 12</value></data>
+	<data name="LinkLabel2.Text"><value>Protected</value></data>
+	<data name="LinkLabel2.ToolTip"><value /></data>
+	<data name="LinkLabelFav.ToolTip"><value /></data>
+	<data name="LinkLabelFollowers.ToolTip"><value /></data>
+	<data name="LinkLabelFollowing.ToolTip"><value /></data>
+	<data name="LinkLabelTweet.ToolTip"><value /></data>
+	<data name="LinkLabelWeb.ToolTip"><value /></data>
+	<data name="RecentPostBrowser.ToolTip"><value /></data>
+	<data name="SelectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>130, 22</value></data>
+	<data name="SelectAllToolStripMenuItem.Text"><value>Select All</value></data>
+	<data name="SelectionCopyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>130, 22</value></data>
+	<data name="SelectionCopyToolStripMenuItem.Text"><value>Copy</value></data>
+	<data name="TextBoxDescription.ToolTip"><value /></data>
+	<data name="TextBoxLocation.ToolTip"><value /></data>
+	<data name="TextBoxName.ToolTip"><value /></data>
+	<data name="TextBoxWeb.ToolTip"><value /></data>
+	<data name="UserPicture.ToolTip"><value /></data>
+</root>

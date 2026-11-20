@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="btnDetail.Text"><value>Font&amp;&amp;Fore...</value></data>
+	<data name="btnDetailBack.Text"><value>Back...</value></data>
+	<data name="btnDetailLink.Text"><value>Fore...</value></data>
+	<data name="btnFav.Text"><value>Fore...</value></data>
+	<data name="btnListFont.Text"><value>Font&amp;&amp;Fore...</value></data>
+	<data name="btnOWL.Text"><value>Fore...</value></data>
+	<data name="btnRetweet.Text"><value>Fore...</value></data>
+	<data name="btnUnread.Text"><value>Font&amp;&amp;Fore...</value></data>
+	<data name="ButtonBackToDefaultFontColor.Text"><value>Back to Default</value></data>
+	<data name="checkBoxUseTwemoji.Size" type="System.Drawing.Size, System.Drawing"><value>211, 16</value></data>
+	<data name="checkBoxUseTwemoji.Text"><value>Render emoji as an image (Twemoji)</value></data>
+	<data name="GroupBox1.Text"><value>Font &amp;&amp; Color</value></data>
+	<data name="Label18.Size" type="System.Drawing.Size, System.Drawing"><value>119, 12</value></data>
+	<data name="Label18.Text"><value>Details of Tweet(Link)</value></data>
+	<data name="Label20.Size" type="System.Drawing.Size, System.Drawing"><value>76, 12</value></data>
+	<data name="Label20.Text"><value>Unread Tweet</value></data>
+	<data name="Label22.Size" type="System.Drawing.Size, System.Drawing"><value>53, 12</value></data>
+	<data name="Label22.Text"><value>Favorited</value></data>
+	<data name="Label24.Size" type="System.Drawing.Size, System.Drawing"><value>100, 12</value></data>
+	<data name="Label24.Text"><value>One-way following</value></data>
+	<data name="Label26.Size" type="System.Drawing.Size, System.Drawing"><value>90, 12</value></data>
+	<data name="Label26.Text"><value>Details of Tweet</value></data>
+	<data name="Label37.Size" type="System.Drawing.Size, System.Drawing"><value>110, 12</value></data>
+	<data name="Label37.Text"><value>Backcolor of Details</value></data>
+	<data name="Label61.Size" type="System.Drawing.Size, System.Drawing"><value>94, 12</value></data>
+	<data name="Label61.Text"><value>Font of tweet list</value></data>
+</root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.ToolTip"><value /></data>
+	<data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing"><value>255, 98</value></data>
+	<data name="contextMenuStrip.ToolTip"><value /></data>
+	<data name="copyToClipboardMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>254, 22</value></data>
+	<data name="copyToClipboardMenuItem.Text"><value>Copy image</value></data>
+	<data name="copyUrlMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>254, 22</value></data>
+	<data name="copyUrlMenuItem.Text"><value>&amp;Copy image URL</value></data>
+	<data name="openMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>254, 22</value></data>
+	<data name="openMenuItem.Text"><value>&amp;Open</value></data>
+	<data name="pictureBox.ToolTip"><value /></data>
+	<data name="scrollBar.ToolTip"><value /></data>
+	<data name="searchImageGoogleMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>254, 22</value></data>
+	<data name="searchImageGoogleMenuItem.Text"><value>Search similar images (Google)</value></data>
+	<data name="searchImageSauceNaoMenuItem.Size" type="System.Drawing.Size, System.Drawing"><value>254, 22</value></data>
+	<data name="searchImageSauceNaoMenuItem.Text"><value>Search similar images (SauceNAO)</value></data>
+	<data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing"><value>251, 6</value></data>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing"><value>290, 92</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms"><value>CenterParent</value></data>
+	<data name="$this.Text"><value>Information</value></data>
+	<data name="&gt;&gt;$this.Name"><value>WaitingDialog</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.OTBaseForm, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;labelMessage.Name"><value>labelMessage</value></data>
+	<data name="&gt;&gt;labelMessage.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;labelMessage.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;labelMessage.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;progressBar.Name"><value>progressBar</value></data>
+	<data name="&gt;&gt;progressBar.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;progressBar.Type"><value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;progressBar.ZOrder"><value>1</value></data>
+	<data name="labelMessage.Location" type="System.Drawing.Point, System.Drawing"><value>12, 9</value></data>
+	<data name="labelMessage.Size" type="System.Drawing.Size, System.Drawing"><value>266, 45</value></data>
+	<data name="labelMessage.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="labelMessage.Text"><value>labelMessage</value></data>
+	<data name="labelMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing"><value>MiddleCenter</value></data>
+	<data name="progressBar.Location" type="System.Drawing.Point, System.Drawing"><value>12, 57</value></data>
+	<data name="progressBar.Size" type="System.Drawing.Size, System.Drawing"><value>266, 23</value></data>
+	<data name="progressBar.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+</root>

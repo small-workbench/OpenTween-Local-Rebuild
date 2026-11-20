@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="CheckStartupFollowers.Size" type="System.Drawing.Size, System.Drawing"><value>123, 16</value></data>
+	<data name="CheckStartupFollowers.Text"><value>Fetch followers list</value></data>
+	<data name="CheckStartupVersion.Size" type="System.Drawing.Size, System.Drawing"><value>121, 16</value></data>
+	<data name="CheckStartupVersion.Text"><value>Check new version</value></data>
+	<data name="chkGetFav.Size" type="System.Drawing.Size, System.Drawing"><value>105, 16</value></data>
+	<data name="chkGetFav.Text"><value>Fetch Favorites</value></data>
+	<data name="StartupReaded.Size" type="System.Drawing.Size, System.Drawing"><value>91, 16</value></data>
+	<data name="StartupReaded.Text"><value>Mark as read</value></data>
+</root>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="&gt;&gt;$this.Name"><value>ConnectionPanel</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.Setting.Panel.SettingPanelBase, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;checkBoxForceIPv4.Name"><value>checkBoxForceIPv4</value></data>
+	<data name="&gt;&gt;checkBoxForceIPv4.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;checkBoxForceIPv4.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;checkBoxForceIPv4.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;ConnectionTimeOut.Name"><value>ConnectionTimeOut</value></data>
+	<data name="&gt;&gt;ConnectionTimeOut.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;ConnectionTimeOut.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;ConnectionTimeOut.ZOrder"><value>6</value></data>
+	<data name="&gt;&gt;label2.Name"><value>label2</value></data>
+	<data name="&gt;&gt;label2.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;label2.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;label2.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;Label63.Name"><value>Label63</value></data>
+	<data name="&gt;&gt;Label63.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label63.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label63.ZOrder"><value>7</value></data>
+	<data name="&gt;&gt;Label64.Name"><value>Label64</value></data>
+	<data name="&gt;&gt;Label64.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label64.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label64.ZOrder"><value>5</value></data>
+	<data name="&gt;&gt;Label8.Name"><value>Label8</value></data>
+	<data name="&gt;&gt;Label8.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Label8.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Label8.ZOrder"><value>4</value></data>
+	<data name="&gt;&gt;TwitterAPIText.Name"><value>TwitterAPIText</value></data>
+	<data name="&gt;&gt;TwitterAPIText.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;TwitterAPIText.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;TwitterAPIText.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;UploadImageTimeout.Name"><value>UploadImageTimeout</value></data>
+	<data name="&gt;&gt;UploadImageTimeout.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;UploadImageTimeout.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;UploadImageTimeout.ZOrder"><value>0</value></data>
+	<data name="checkBoxForceIPv4.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="checkBoxForceIPv4.Location" type="System.Drawing.Point, System.Drawing"><value>23, 102</value></data>
+	<data name="checkBoxForceIPv4.Size" type="System.Drawing.Size, System.Drawing"><value>281, 16</value></data>
+	<data name="checkBoxForceIPv4.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="checkBoxForceIPv4.Text"><value>pbs.twimg.com への接続に強制的に IPv4 を使用する</value></data>
+	<data name="ConnectionTimeOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>Disable</value></data>
+	<data name="ConnectionTimeOut.Location" type="System.Drawing.Point, System.Drawing"><value>267, 23</value></data>
+	<data name="ConnectionTimeOut.Size" type="System.Drawing.Size, System.Drawing"><value>125, 19</value></data>
+	<data name="ConnectionTimeOut.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="label2.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="label2.Location" type="System.Drawing.Point, System.Drawing"><value>23, 51</value></data>
+	<data name="label2.Size" type="System.Drawing.Size, System.Drawing"><value>214, 12</value></data>
+	<data name="label2.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="label2.Text"><value>タイムアウトまでの時間(秒, 画像アップロード)</value></data>
+	<data name="Label63.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label63.Location" type="System.Drawing.Point, System.Drawing"><value>23, 26</value></data>
+	<data name="Label63.Size" type="System.Drawing.Size, System.Drawing"><value>131, 12</value></data>
+	<data name="Label63.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="Label63.Text"><value>タイムアウトまでの時間(秒)</value></data>
+	<data name="Label64.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label64.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label64.Location" type="System.Drawing.Point, System.Drawing"><value>23, 75</value></data>
+	<data name="Label64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 3, 3, 3</value></data>
+	<data name="Label64.Size" type="System.Drawing.Size, System.Drawing"><value>231, 12</value></data>
+	<data name="Label64.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="Label64.Text"><value>※タイムアウトが頻発する場合に調整してください</value></data>
+	<data name="Label8.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="Label8.Location" type="System.Drawing.Point, System.Drawing"><value>23, 130</value></data>
+	<data name="Label8.Size" type="System.Drawing.Size, System.Drawing"><value>174, 12</value></data>
+	<data name="Label8.TabIndex" type="System.Int32, mscorlib"><value>6</value></data>
+	<data name="Label8.Text"><value>Twitter API URL (api.twitter.com)</value></data>
+	<data name="Label8.Visible" type="System.Boolean, mscorlib"><value>False</value></data>
+	<data name="TwitterAPIText.Location" type="System.Drawing.Point, System.Drawing"><value>267, 127</value></data>
+	<data name="TwitterAPIText.Size" type="System.Drawing.Size, System.Drawing"><value>125, 19</value></data>
+	<data name="TwitterAPIText.TabIndex" type="System.Int32, mscorlib"><value>7</value></data>
+	<data name="TwitterAPIText.Text"><value>api.twitter.com</value></data>
+	<data name="TwitterAPIText.Visible" type="System.Boolean, mscorlib"><value>False</value></data>
+	<data name="UploadImageTimeout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>Disable</value></data>
+	<data name="UploadImageTimeout.Location" type="System.Drawing.Point, System.Drawing"><value>267, 48</value></data>
+	<data name="UploadImageTimeout.Size" type="System.Drawing.Size, System.Drawing"><value>125, 19</value></data>
+	<data name="UploadImageTimeout.TabIndex" type="System.Int32, mscorlib"><value>3</value></data>
+</root>

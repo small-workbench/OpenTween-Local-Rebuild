@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing"><value>435, 164</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms"><value>CenterParent</value></data>
+	<data name="$this.Text"><value>検索</value></data>
+	<data name="&gt;&gt;$this.Name"><value>SearchWordDialog</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.OTBaseForm, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;buttonSearchPublic.Name"><value>buttonSearchPublic</value></data>
+	<data name="&gt;&gt;buttonSearchPublic.Parent"><value>tableLayoutPanel2</value></data>
+	<data name="&gt;&gt;buttonSearchPublic.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonSearchPublic.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;buttonSearchTimeline.Name"><value>buttonSearchTimeline</value></data>
+	<data name="&gt;&gt;buttonSearchTimeline.Parent"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;buttonSearchTimeline.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonSearchTimeline.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;buttonSearchTimelineNew.Name"><value>buttonSearchTimelineNew</value></data>
+	<data name="&gt;&gt;buttonSearchTimelineNew.Parent"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;buttonSearchTimelineNew.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;buttonSearchTimelineNew.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;checkTimelineCaseSensitive.Name"><value>checkTimelineCaseSensitive</value></data>
+	<data name="&gt;&gt;checkTimelineCaseSensitive.Parent"><value>tabPageTimeline</value></data>
+	<data name="&gt;&gt;checkTimelineCaseSensitive.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;checkTimelineCaseSensitive.ZOrder"><value>4</value></data>
+	<data name="&gt;&gt;checkTimelineRegex.Name"><value>checkTimelineRegex</value></data>
+	<data name="&gt;&gt;checkTimelineRegex.Parent"><value>tabPageTimeline</value></data>
+	<data name="&gt;&gt;checkTimelineRegex.Type"><value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;checkTimelineRegex.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;label1.Name"><value>label1</value></data>
+	<data name="&gt;&gt;label1.Parent"><value>tabPageTimeline</value></data>
+	<data name="&gt;&gt;label1.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;label1.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;label2.Name"><value>label2</value></data>
+	<data name="&gt;&gt;label2.Parent"><value>tabPagePublic</value></data>
+	<data name="&gt;&gt;label2.Type"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;label2.ZOrder"><value>2</value></data>
+	<data name="&gt;&gt;linkLabelSearchHelp.Name"><value>linkLabelSearchHelp</value></data>
+	<data name="&gt;&gt;linkLabelSearchHelp.Parent"><value>tabPagePublic</value></data>
+	<data name="&gt;&gt;linkLabelSearchHelp.Type"><value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;linkLabelSearchHelp.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;tabControl.Name"><value>tabControl</value></data>
+	<data name="&gt;&gt;tabControl.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;tabControl.Type"><value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;tabControl.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.Name"><value>tableLayoutPanel1</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.Parent"><value>tabPageTimeline</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.Type"><value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;tableLayoutPanel1.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;tableLayoutPanel2.Name"><value>tableLayoutPanel2</value></data>
+	<data name="&gt;&gt;tableLayoutPanel2.Parent"><value>tabPagePublic</value></data>
+	<data name="&gt;&gt;tableLayoutPanel2.Type"><value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;tableLayoutPanel2.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;tabPagePublic.Name"><value>tabPagePublic</value></data>
+	<data name="&gt;&gt;tabPagePublic.Parent"><value>tabControl</value></data>
+	<data name="&gt;&gt;tabPagePublic.Type"><value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;tabPagePublic.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;tabPageTimeline.Name"><value>tabPageTimeline</value></data>
+	<data name="&gt;&gt;tabPageTimeline.Parent"><value>tabControl</value></data>
+	<data name="&gt;&gt;tabPageTimeline.Type"><value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;tabPageTimeline.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;textSearchPublic.Name"><value>textSearchPublic</value></data>
+	<data name="&gt;&gt;textSearchPublic.Parent"><value>tabPagePublic</value></data>
+	<data name="&gt;&gt;textSearchPublic.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;textSearchPublic.ZOrder"><value>3</value></data>
+	<data name="&gt;&gt;textSearchTimeline.Name"><value>textSearchTimeline</value></data>
+	<data name="&gt;&gt;textSearchTimeline.Parent"><value>tabPageTimeline</value></data>
+	<data name="&gt;&gt;textSearchTimeline.Type"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;textSearchTimeline.ZOrder"><value>3</value></data>
+	<data name="buttonSearchPublic.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="buttonSearchPublic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="buttonSearchPublic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="buttonSearchPublic.Location" type="System.Drawing.Point, System.Drawing"><value>3, 3</value></data>
+	<data name="buttonSearchPublic.Size" type="System.Drawing.Size, System.Drawing"><value>109, 25</value></data>
+	<data name="buttonSearchPublic.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="buttonSearchPublic.Text"><value>検索(&amp;F)</value></data>
+	<data name="buttonSearchTimeline.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="buttonSearchTimeline.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="buttonSearchTimeline.Location" type="System.Drawing.Point, System.Drawing"><value>3, 3</value></data>
+	<data name="buttonSearchTimeline.Size" type="System.Drawing.Size, System.Drawing"><value>114, 25</value></data>
+	<data name="buttonSearchTimeline.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="buttonSearchTimeline.Text"><value>検索(&amp;F)</value></data>
+	<data name="buttonSearchTimelineNew.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="buttonSearchTimelineNew.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms"><value>Fill</value></data>
+	<data name="buttonSearchTimelineNew.Location" type="System.Drawing.Point, System.Drawing"><value>123, 3</value></data>
+	<data name="buttonSearchTimelineNew.Size" type="System.Drawing.Size, System.Drawing"><value>114, 25</value></data>
+	<data name="buttonSearchTimelineNew.TabIndex" type="System.Int32, mscorlib"><value>5</value></data>
+	<data name="buttonSearchTimelineNew.Text"><value>新規タブに表示(&amp;N)</value></data>
+	<data name="checkTimelineCaseSensitive.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="checkTimelineCaseSensitive.Location" type="System.Drawing.Point, System.Drawing"><value>121, 35</value></data>
+	<data name="checkTimelineCaseSensitive.Size" type="System.Drawing.Size, System.Drawing"><value>156, 16</value></data>
+	<data name="checkTimelineCaseSensitive.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="checkTimelineCaseSensitive.Text"><value>大文字と小文字を区別する</value></data>
+	<data name="checkTimelineRegex.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="checkTimelineRegex.Location" type="System.Drawing.Point, System.Drawing"><value>121, 60</value></data>
+	<data name="checkTimelineRegex.Size" type="System.Drawing.Size, System.Drawing"><value>124, 16</value></data>
+	<data name="checkTimelineRegex.TabIndex" type="System.Int32, mscorlib"><value>3</value></data>
+	<data name="checkTimelineRegex.Text"><value>正規表現を使用する</value></data>
+	<data name="label1.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="label1.Location" type="System.Drawing.Point, System.Drawing"><value>6, 9</value></data>
+	<data name="label1.Size" type="System.Drawing.Size, System.Drawing"><value>100, 12</value></data>
+	<data name="label1.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="label1.Text"><value>検索する文字列(&amp;N)</value></data>
+	<data name="label2.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms"><value>NoControl</value></data>
+	<data name="label2.Location" type="System.Drawing.Point, System.Drawing"><value>6, 9</value></data>
+	<data name="label2.Size" type="System.Drawing.Size, System.Drawing"><value>100, 12</value></data>
+	<data name="label2.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="label2.Text"><value>検索する文字列(&amp;N)</value></data>
+	<data name="linkLabelSearchHelp.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="linkLabelSearchHelp.Location" type="System.Drawing.Point, System.Drawing"><value>118, 32</value></data>
+	<data name="linkLabelSearchHelp.Size" type="System.Drawing.Size, System.Drawing"><value>126, 12</value></data>
+	<data name="linkLabelSearchHelp.TabIndex" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="linkLabelSearchHelp.Text"><value>検索に使用できる演算子</value></data>
+	<data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Top, Bottom, Left, Right</value></data>
+	<data name="tabControl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms"><value>FlatButtons</value></data>
+	<data name="tabControl.Location" type="System.Drawing.Point, System.Drawing"><value>9, 9</value></data>
+	<data name="tabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>0, 0, 0, 0</value></data>
+	<data name="tabControl.Size" type="System.Drawing.Size, System.Drawing"><value>417, 146</value></data>
+	<data name="tabControl.TabIndex" type="System.Int32, mscorlib"><value>6</value></data>
+	<data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Right</value></data>
+	<data name="tableLayoutPanel1.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib"><value>2</value></data>
+	<data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms"><value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="buttonSearchTimeline" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="buttonSearchTimelineNew" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value></data>
+	<data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing"><value>169, 86</value></data>
+	<data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>0, 0, 0, 0</value></data>
+	<data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing"><value>240, 31</value></data>
+	<data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib"><value>4</value></data>
+	<data name="tableLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms"><value>Bottom, Right</value></data>
+	<data name="tableLayoutPanel2.AutoSize" type="System.Boolean, mscorlib"><value>True</value></data>
+	<data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms"><value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="buttonSearchPublic" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value></data>
+	<data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing"><value>294, 86</value></data>
+	<data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>0, 0, 0, 0</value></data>
+	<data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing"><value>115, 31</value></data>
+	<data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib"><value>3</value></data>
+	<data name="tabPagePublic.Location" type="System.Drawing.Point, System.Drawing"><value>4, 25</value></data>
+	<data name="tabPagePublic.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 3, 3, 3</value></data>
+	<data name="tabPagePublic.Size" type="System.Drawing.Size, System.Drawing"><value>409, 117</value></data>
+	<data name="tabPagePublic.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="tabPagePublic.Text"><value>Twitter検索</value></data>
+	<data name="tabPageTimeline.Location" type="System.Drawing.Point, System.Drawing"><value>4, 25</value></data>
+	<data name="tabPageTimeline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>0, 0, 0, 0</value></data>
+	<data name="tabPageTimeline.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms"><value>3, 3, 3, 3</value></data>
+	<data name="tabPageTimeline.Size" type="System.Drawing.Size, System.Drawing"><value>409, 117</value></data>
+	<data name="tabPageTimeline.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="tabPageTimeline.Text"><value>タイムラインから検索</value></data>
+	<data name="textSearchPublic.Location" type="System.Drawing.Point, System.Drawing"><value>121, 6</value></data>
+	<data name="textSearchPublic.Size" type="System.Drawing.Size, System.Drawing"><value>285, 19</value></data>
+	<data name="textSearchPublic.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="textSearchTimeline.Location" type="System.Drawing.Point, System.Drawing"><value>121, 6</value></data>
+	<data name="textSearchTimeline.Size" type="System.Drawing.Size, System.Drawing"><value>282, 19</value></data>
+	<data name="textSearchTimeline.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+</root>

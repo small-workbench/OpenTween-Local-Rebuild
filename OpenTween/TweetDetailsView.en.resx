@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="CurrentTabToolStripMenuItem.Text"><value>Current Tab(&amp;Local)</value></data>
+	<data name="FollowContextMenuItem.Text"><value>&amp;Follow</value></data>
+	<data name="FollowToolStripMenuItem.Text"><value>&amp;Follow</value></data>
+	<data name="FriendshipAllMenuItem.Text"><value>&amp;All User Friendship in this Tweet</value></data>
+	<data name="FriendshipContextMenuItem.Text"><value>Friendship &amp;Relation</value></data>
+	<data name="IdFilterAddMenuItem.Text"><value>Filter by &amp;Id ...</value></data>
+	<data name="ListManageUserContextToolStripMenuItem.Text"><value>Add to &amp;Lists</value></data>
+	<data name="ListManageUserContextToolStripMenuItem3.Text"><value>Add to &amp;Lists</value></data>
+	<data name="PostBrowser.AccessibleName"><value>PostBody</value></data>
+	<data name="ReloadIconToolStripMenuItem.Text"><value>&amp;Reload Icon</value></data>
+	<data name="RemoveContextMenuItem.Text"><value>&amp;Unfollow</value></data>
+	<data name="SaveIconPictureToolStripMenuItem.Text"><value>Save &amp;Icon...</value></data>
+	<data name="SearchAtPostsDetailNameToolStripMenuItem.Text"><value>Search &amp;Mentions to this user</value></data>
+	<data name="SearchAtPostsDetailToolStripMenuItem.Text"><value>Search &amp;Mentions to this user</value></data>
+	<data name="SearchPostsDetailNameToolStripMenuItem.Text"><value>User &amp;Timeline</value></data>
+	<data name="SearchPostsDetailToolStripMenuItem.Text"><value>User Timeline(&amp;F)</value></data>
+	<data name="SelectionAllContextMenuItem.Text"><value>Select &amp;All</value></data>
+	<data name="SelectionCopyContextMenuItem.Text"><value>&amp;Copy</value></data>
+	<data name="SelectionSearchContextMenuItem.Text"><value>&amp;Search selecting words</value></data>
+	<data name="SelectionTranslationToolStripMenuItem.Text"><value>&amp;Translate selecting words</value></data>
+	<data name="ShowFriendShipToolStripMenuItem.Text"><value>Friendship &amp;Relation</value></data>
+	<data name="ShowUserStatusContextMenuItem.Text"><value>User &amp;Profile</value></data>
+	<data name="ShowUserStatusToolStripMenuItem.Text"><value>User &amp;Profile</value></data>
+	<data name="SourceCopyMenuItem.Text"><value>Copy &amp;Source</value></data>
+	<data name="SourceUrlCopyMenuItem.Text"><value>Copy Source &amp;URL</value></data>
+	<data name="TranslationToolStripMenuItem.Text"><value>Translate</value></data>
+	<data name="UnFollowToolStripMenuItem.Text"><value>&amp;Unfollow</value></data>
+	<data name="UrlCopyContextMenuItem.Text"><value>Copy &amp;URL</value></data>
+	<data name="UseHashtagMenuItem.Text"><value>Use this &amp;Hashtag</value></data>
+	<data name="UserPicture.AccessibleName"><value>ProfileImage</value></data>
+</root>

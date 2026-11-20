@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.Text"><value>Search</value></data>
+	<data name="buttonSearchPublic.Text"><value>&amp;Find</value></data>
+	<data name="buttonSearchTimeline.Text"><value>&amp;Find</value></data>
+	<data name="buttonSearchTimelineNew.Text"><value>Find in &amp;New Tab</value></data>
+	<data name="checkTimelineCaseSensitive.Size" type="System.Drawing.Size, System.Drawing"><value>100, 16</value></data>
+	<data name="checkTimelineCaseSensitive.Text"><value>Case sensitive</value></data>
+	<data name="checkTimelineRegex.Size" type="System.Drawing.Size, System.Drawing"><value>123, 16</value></data>
+	<data name="checkTimelineRegex.Text"><value>Regular Expression</value></data>
+	<data name="label1.Size" type="System.Drawing.Size, System.Drawing"><value>70, 12</value></data>
+	<data name="label1.Text"><value>Text to Fi&amp;nd:</value></data>
+	<data name="label2.Size" type="System.Drawing.Size, System.Drawing"><value>70, 12</value></data>
+	<data name="label2.Text"><value>Text to Fi&amp;nd:</value></data>
+	<data name="linkLabelSearchHelp.Size" type="System.Drawing.Size, System.Drawing"><value>94, 12</value></data>
+	<data name="linkLabelSearchHelp.Text"><value>Search Operators</value></data>
+	<data name="tabPagePublic.Text"><value>Twitter Search</value></data>
+	<data name="tabPageTimeline.Text"><value>Timeline Search</value></data>
+</root>

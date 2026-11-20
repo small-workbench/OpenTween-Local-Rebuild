@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><root xml:space="preserve">
+	<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+	<resheader name="version"><value>2.0</value></resheader>
+	<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+	<assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+	<assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+
+	<data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing"><value>96, 96</value></data>
+	<data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing"><value>170, 135</value></data>
+	<metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></metadata>
+	<data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms"><value>CenterParent</value></data>
+	<data name="$this.Text"><value>タブ選択</value></data>
+	<data name="&gt;&gt;$this.Name"><value>TabsDialog</value></data>
+	<data name="&gt;&gt;$this.Type"><value>OpenTween.OTBaseForm, OpenTween, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value></data>
+	<data name="&gt;&gt;Cancel_Button.Name"><value>Cancel_Button</value></data>
+	<data name="&gt;&gt;Cancel_Button.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;Cancel_Button.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;Cancel_Button.ZOrder"><value>0</value></data>
+	<data name="&gt;&gt;OK_Button.Name"><value>OK_Button</value></data>
+	<data name="&gt;&gt;OK_Button.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;OK_Button.Type"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;OK_Button.ZOrder"><value>1</value></data>
+	<data name="&gt;&gt;TabList.Name"><value>TabList</value></data>
+	<data name="&gt;&gt;TabList.Parent"><value>$this</value></data>
+	<data name="&gt;&gt;TabList.Type"><value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+	<data name="&gt;&gt;TabList.ZOrder"><value>2</value></data>
+	<data name="Cancel_Button.Location" type="System.Drawing.Point, System.Drawing"><value>88, 104</value></data>
+	<data name="Cancel_Button.Size" type="System.Drawing.Size, System.Drawing"><value>71, 21</value></data>
+	<data name="Cancel_Button.TabIndex" type="System.Int32, mscorlib"><value>1</value></data>
+	<data name="Cancel_Button.Text"><value>キャンセル</value></data>
+	<data name="OK_Button.Enabled" type="System.Boolean, mscorlib"><value>False</value></data>
+	<data name="OK_Button.Location" type="System.Drawing.Point, System.Drawing"><value>10, 104</value></data>
+	<data name="OK_Button.Size" type="System.Drawing.Size, System.Drawing"><value>71, 21</value></data>
+	<data name="OK_Button.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+	<data name="OK_Button.Text"><value>OK</value></data>
+	<data name="TabList.ItemHeight" type="System.Int32, mscorlib"><value>12</value></data>
+	<data name="TabList.Location" type="System.Drawing.Point, System.Drawing"><value>10, 10</value></data>
+	<data name="TabList.Size" type="System.Drawing.Size, System.Drawing"><value>150, 88</value></data>
+	<data name="TabList.TabIndex" type="System.Int32, mscorlib"><value>0</value></data>
+</root>

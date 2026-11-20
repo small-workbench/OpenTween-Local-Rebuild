@@ -1,0 +1,55 @@
+permissions:
+  contents: read
+
+name: Run msbuild
+
+on:
+  workflow_call:
+    inputs:
+      msbuild_args:
+        type: string
+
+env:
+  NUGET_PACKAGES: ${{ github.workspace }}/.nuget/packages
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Set configuration env
+        shell: pwsh
+        run: |
+          if ($env:GITHUB_REF -eq 'refs/heads/release') {
+            echo 'CONFIGURATION=Release' >> $env:GITHUB_ENV
+          } else {
+            echo 'CONFIGURATION=Debug' >> $env:GITHUB_ENV
+          }
+
+      - uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/.nuget/packages
+          key: nuget-${{ hashFiles('*/*.csproj') }}
+          restore-keys: |
+            nuget-
+
+      - name: Build
+        shell: pwsh
+        run: |
+          msbuild /target:restore,build "/p:Configuration=$($env:CONFIGURATION)" /verbosity:minimal ${{ inputs.msbuild_args }}
+
+      - name: Upload build result
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: |
+            ./OpenTween/bin/
+            ./OpenTween.Tests/bin/
+          retention-days: 1
